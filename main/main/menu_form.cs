@@ -9,7 +9,12 @@ namespace main
 
         private void odejit_btn_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            DialogResult result;
+            result=MessageBox.Show("Chystáte se ukonèit aplikaci. Opravdu chcete pokraèovat?","Upozornìní!",MessageBoxButtons.YesNo,MessageBoxIcon.Information);
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
 
         private void uKONÈITToolStripMenuItem_Click(object sender, EventArgs e)
@@ -28,6 +33,13 @@ namespace main
         {
             play_form play = new play_form();
             play.Show();
+            this.Hide();
+        }
+
+        private void set_btn_Click(object sender, EventArgs e)
+        {
+            settings_form settings = new settings_form();
+            settings.Show();
             this.Hide();
         }
     }

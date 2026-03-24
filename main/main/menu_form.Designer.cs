@@ -54,6 +54,8 @@
             // 
             // start_btn
             // 
+            start_btn.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
+            start_btn.ForeColor = Color.FromArgb(0, 0, 64);
             start_btn.Location = new Point(133, 116);
             start_btn.Name = "start_btn";
             start_btn.Size = new Size(441, 85);
@@ -64,15 +66,20 @@
             // 
             // set_btn
             // 
+            set_btn.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
+            set_btn.ForeColor = Color.FromArgb(0, 0, 64);
             set_btn.Location = new Point(133, 217);
             set_btn.Name = "set_btn";
             set_btn.Size = new Size(441, 85);
             set_btn.TabIndex = 1;
             set_btn.Text = "NASTAVENÍ HRY";
             set_btn.UseVisualStyleBackColor = true;
+            set_btn.Click += set_btn_Click;
             // 
             // about_btn
             // 
+            about_btn.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
+            about_btn.ForeColor = Color.FromArgb(0, 0, 64);
             about_btn.Location = new Point(133, 322);
             about_btn.Name = "about_btn";
             about_btn.Size = new Size(441, 85);
@@ -123,7 +130,8 @@
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             Name = "menu_form";
-            Text = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Zábavná hra AZ Kvíz";
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);

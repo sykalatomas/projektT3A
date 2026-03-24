@@ -37,7 +37,7 @@
             label1.AutoSize = true;
             label1.Location = new Point(92, 206);
             label1.Name = "label1";
-            label1.Size = new Size(615, 15);
+            label1.Size = new Size(616, 15);
             label1.TabIndex = 0;
             label1.Text = "Jsem studentem 3. ročníku maturitního oboru IT na FrenGP. Je mi 18 let a pocházím z nedalekého města Kopřivnice.";
             // 
@@ -51,7 +51,7 @@
             button1.Name = "button1";
             button1.Size = new Size(109, 42);
             button1.TabIndex = 1;
-            button1.Text = "<-- ZPĚT";
+            button1.Text = "ZPĚT";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
@@ -64,7 +64,8 @@
             Controls.Add(button1);
             Controls.Add(label1);
             Name = "about_form";
-            Text = "about_form";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "O autorovi";
             ResumeLayout(false);
             PerformLayout();
         }
