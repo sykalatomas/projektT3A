@@ -1,32 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\menu_form.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:main\\main\\menu_form.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:main\\main\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\menu_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:main\\main\\menu_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\main.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:main\\main\\main.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\main.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:main\\main\\main.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\about_form.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:main\\main\\about_form.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -34,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,84 +17,19 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\Program.cs",
-              "RelativeDocumentMoniker": "main\\main\\Program.cs",
-              "ToolTip": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\Program.cs",
-              "RelativeToolTip": "main\\main\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T07:48:42.202Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "main.csproj.user",
-              "DocumentMoniker": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\main.csproj.user",
-              "RelativeDocumentMoniker": "main\\main\\main.csproj.user",
-              "ToolTip": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\main.csproj.user",
-              "RelativeToolTip": "main\\main\\main.csproj.user",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
-              "WhenOpened": "2026-03-24T07:48:28.799Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "main.csproj",
-              "DocumentMoniker": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\main.csproj",
-              "RelativeDocumentMoniker": "main\\main\\main.csproj",
-              "ToolTip": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\main.csproj",
-              "RelativeToolTip": "main\\main\\main.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-24T07:48:27.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "about_form.resx",
-              "DocumentMoniker": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\about_form.resx",
-              "RelativeDocumentMoniker": "main\\main\\about_form.resx",
-              "ToolTip": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\about_form.resx",
-              "RelativeToolTip": "main\\main\\about_form.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2026-03-24T07:48:24.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "menu_form.Designer.cs",
-              "DocumentMoniker": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\menu_form.Designer.cs",
-              "RelativeDocumentMoniker": "main\\main\\menu_form.Designer.cs",
-              "ToolTip": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\menu_form.Designer.cs",
-              "RelativeToolTip": "main\\main\\menu_form.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T07:43:30.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "menu_form.cs",
-              "DocumentMoniker": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\menu_form.cs",
-              "RelativeDocumentMoniker": "main\\main\\menu_form.cs",
-              "ToolTip": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\menu_form.cs",
-              "RelativeToolTip": "main\\main\\menu_form.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T07:41:56.875Z",
-              "EditorCaption": ""
             }
           ]
         }

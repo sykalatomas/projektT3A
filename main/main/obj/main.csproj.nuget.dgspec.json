@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tomas\\OneDrive - FRENGP\\3. Třeťák\\PRG - programování (cvičení)\\sykalatomas\\projektT3A\\main\\main\\main.csproj": {}
+    "C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\main.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tomas\\OneDrive - FRENGP\\3. Třeťák\\PRG - programování (cvičení)\\sykalatomas\\projektT3A\\main\\main\\main.csproj": {
+    "C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tomas\\OneDrive - FRENGP\\3. Třeťák\\PRG - programování (cvičení)\\sykalatomas\\projektT3A\\main\\main\\main.csproj",
+        "projectUniqueName": "C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\main.csproj",
         "projectName": "main",
-        "projectPath": "C:\\Users\\tomas\\OneDrive - FRENGP\\3. Třeťák\\PRG - programování (cvičení)\\sykalatomas\\projektT3A\\main\\main\\main.csproj",
+        "projectPath": "C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\main.csproj",
         "packagesPath": "C:\\Users\\tomas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tomas\\OneDrive - FRENGP\\3. Třeťák\\PRG - programování (cvičení)\\sykalatomas\\projektT3A\\main\\main\\obj\\",
+        "outputPath": "C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,7 +64,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

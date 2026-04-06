@@ -63,9 +63,49 @@ namespace main.Properties {
         /// <summary>
         ///   Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap az_kviz_pozadi {
+            get {
+                object obj = ResourceManager.GetObject("az-kviz-pozadi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Poster__Facebook1200x675 {
             get {
                 object obj = ResourceManager.GetObject("Poster__Facebook1200x675", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sestiuhelnik {
+            get {
+                object obj = ResourceManager.GetObject("sestiuhelnik", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sestiuhelnik_aqua {
+            get {
+                object obj = ResourceManager.GetObject("sestiuhelnik_aqua", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sestiuhelnik_zlata {
+            get {
+                object obj = ResourceManager.GetObject("sestiuhelnik_zlata", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -36,6 +36,7 @@
             motiv = new Label();
             dark_radiobtn = new RadioButton();
             light_radiobtn = new RadioButton();
+            ulozit_btn = new Button();
             SuspendLayout();
             // 
             // button1
@@ -120,11 +121,26 @@
             light_radiobtn.Text = "Světlý režim";
             light_radiobtn.UseVisualStyleBackColor = true;
             // 
+            // ulozit_btn
+            // 
+            ulozit_btn.BackColor = Color.ForestGreen;
+            ulozit_btn.FlatStyle = FlatStyle.Flat;
+            ulozit_btn.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 238);
+            ulozit_btn.ForeColor = SystemColors.Control;
+            ulozit_btn.Location = new Point(679, 396);
+            ulozit_btn.Name = "ulozit_btn";
+            ulozit_btn.Size = new Size(109, 42);
+            ulozit_btn.TabIndex = 8;
+            ulozit_btn.Text = "ULOŽIT";
+            ulozit_btn.UseVisualStyleBackColor = false;
+            ulozit_btn.Click += ulozit_btn_Click;
+            // 
             // settings_form
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(ulozit_btn);
             Controls.Add(light_radiobtn);
             Controls.Add(dark_radiobtn);
             Controls.Add(hrac2_textbox);
@@ -136,6 +152,7 @@
             Name = "settings_form";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Nastavení hry";
+            Load += settings_form_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -150,5 +167,6 @@
         private Label motiv;
         private RadioButton dark_radiobtn;
         private RadioButton light_radiobtn;
+        private Button ulozit_btn;
     }
 }

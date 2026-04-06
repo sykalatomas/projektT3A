@@ -28,29 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            odejit_btn = new Button();
             start_btn = new Button();
             set_btn = new Button();
             about_btn = new Button();
             menuStrip1 = new MenuStrip();
             uKONČITToolStripMenuItem = new ToolStripMenuItem();
             label1 = new Label();
+            odejit_btn = new Button();
             menuStrip1.SuspendLayout();
             SuspendLayout();
-            // 
-            // odejit_btn
-            // 
-            odejit_btn.BackColor = Color.Firebrick;
-            odejit_btn.FlatStyle = FlatStyle.Flat;
-            odejit_btn.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            odejit_btn.ForeColor = SystemColors.Control;
-            odejit_btn.Location = new Point(12, 590);
-            odejit_btn.Name = "odejit_btn";
-            odejit_btn.Size = new Size(95, 42);
-            odejit_btn.TabIndex = 0;
-            odejit_btn.Text = "ODEJÍT";
-            odejit_btn.UseVisualStyleBackColor = false;
-            odejit_btn.Click += odejit_btn_Click;
             // 
             // start_btn
             // 
@@ -116,6 +102,20 @@
             label1.TabIndex = 3;
             label1.Text = "verze: beta";
             // 
+            // odejit_btn
+            // 
+            odejit_btn.BackColor = Color.Firebrick;
+            odejit_btn.FlatStyle = FlatStyle.Flat;
+            odejit_btn.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 238);
+            odejit_btn.ForeColor = SystemColors.Control;
+            odejit_btn.Location = new Point(12, 590);
+            odejit_btn.Name = "odejit_btn";
+            odejit_btn.Size = new Size(95, 42);
+            odejit_btn.TabIndex = 0;
+            odejit_btn.Text = "ODEJÍT";
+            odejit_btn.UseVisualStyleBackColor = false;
+            odejit_btn.Click += odejit_btn_Click;
+            // 
             // menu_form
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -139,13 +139,12 @@
         }
 
         #endregion
-
-        private Button odejit_btn;
         private Button start_btn;
         private Button set_btn;
         private Button about_btn;
         private MenuStrip menuStrip1;
         private ToolStripMenuItem uKONČITToolStripMenuItem;
         private Label label1;
+        private Button odejit_btn;
     }
 }

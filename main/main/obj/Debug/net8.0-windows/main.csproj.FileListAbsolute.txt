@@ -39,3 +39,24 @@ C:\Users\tomas\OneDrive - FRENGP\3. Třeťák\PRG - programování (cvičení)\s
 C:\Users\tomas\OneDrive - FRENGP\3. Třeťák\PRG - programování (cvičení)\sykalatomas\projektT3A\main\main\obj\Debug\net8.0-windows\main.genruntimeconfig.cache
 C:\Users\tomas\OneDrive - FRENGP\3. Třeťák\PRG - programování (cvičení)\sykalatomas\projektT3A\main\main\obj\Debug\net8.0-windows\ref\main.dll
 C:\Users\tomas\OneDrive - FRENGP\3. Třeťák\PRG - programování (cvičení)\sykalatomas\projektT3A\main\main\obj\Debug\net8.0-windows\main.settings_form.resources
+C:\Users\tomas\source\repos\sykalatomas\projektT3A\main\main\bin\Debug\net8.0-windows\main.exe
+C:\Users\tomas\source\repos\sykalatomas\projektT3A\main\main\bin\Debug\net8.0-windows\main.deps.json
+C:\Users\tomas\source\repos\sykalatomas\projektT3A\main\main\bin\Debug\net8.0-windows\main.runtimeconfig.json
+C:\Users\tomas\source\repos\sykalatomas\projektT3A\main\main\bin\Debug\net8.0-windows\main.dll
+C:\Users\tomas\source\repos\sykalatomas\projektT3A\main\main\bin\Debug\net8.0-windows\main.pdb
+C:\Users\tomas\source\repos\sykalatomas\projektT3A\main\main\obj\Debug\net8.0-windows\main.about_form.resources
+C:\Users\tomas\source\repos\sykalatomas\projektT3A\main\main\obj\Debug\net8.0-windows\main.menu_form.resources
+C:\Users\tomas\source\repos\sykalatomas\projektT3A\main\main\obj\Debug\net8.0-windows\main.play_form.resources
+C:\Users\tomas\source\repos\sykalatomas\projektT3A\main\main\obj\Debug\net8.0-windows\main.Properties.Resources.resources
+C:\Users\tomas\source\repos\sykalatomas\projektT3A\main\main\obj\Debug\net8.0-windows\main.settings_form.resources
+C:\Users\tomas\source\repos\sykalatomas\projektT3A\main\main\obj\Debug\net8.0-windows\main.csproj.GenerateResource.cache
+C:\Users\tomas\source\repos\sykalatomas\projektT3A\main\main\obj\Debug\net8.0-windows\main.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomas\source\repos\sykalatomas\projektT3A\main\main\obj\Debug\net8.0-windows\main.AssemblyInfoInputs.cache
+C:\Users\tomas\source\repos\sykalatomas\projektT3A\main\main\obj\Debug\net8.0-windows\main.AssemblyInfo.cs
+C:\Users\tomas\source\repos\sykalatomas\projektT3A\main\main\obj\Debug\net8.0-windows\main.csproj.CoreCompileInputs.cache
+C:\Users\tomas\source\repos\sykalatomas\projektT3A\main\main\obj\Debug\net8.0-windows\main.sourcelink.json
+C:\Users\tomas\source\repos\sykalatomas\projektT3A\main\main\obj\Debug\net8.0-windows\main.dll
+C:\Users\tomas\source\repos\sykalatomas\projektT3A\main\main\obj\Debug\net8.0-windows\refint\main.dll
+C:\Users\tomas\source\repos\sykalatomas\projektT3A\main\main\obj\Debug\net8.0-windows\main.pdb
+C:\Users\tomas\source\repos\sykalatomas\projektT3A\main\main\obj\Debug\net8.0-windows\main.genruntimeconfig.cache
+C:\Users\tomas\source\repos\sykalatomas\projektT3A\main\main\obj\Debug\net8.0-windows\ref\main.dll
