@@ -23,5 +23,23 @@ namespace main
             menu_form menu = new menu_form();
             menu.Show();
         }
+
+        private void start_btn_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
+            {
+                FileName = "https://github.com/sykalatomas/projektT3A",
+                UseShellExecute = true
+            });
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
+            {
+                FileName = "https://eu.zonerama.com/sykyphotos/",
+                UseShellExecute = true
+            });
+        }
     }
 }

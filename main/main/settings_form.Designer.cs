@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(settings_form));
             button1 = new Button();
             hrac1 = new Label();
             hrac2 = new Label();
@@ -37,6 +38,10 @@
             dark_radiobtn = new RadioButton();
             light_radiobtn = new RadioButton();
             ulozit_btn = new Button();
+            hrac1_radio = new RadioButton();
+            hrac2_radio = new RadioButton();
+            groupBox1 = new GroupBox();
+            groupBox1.SuspendLayout();
             SuspendLayout();
             // 
             // button1
@@ -102,7 +107,7 @@
             // dark_radiobtn
             // 
             dark_radiobtn.AutoSize = true;
-            dark_radiobtn.Location = new Point(384, 82);
+            dark_radiobtn.Location = new Point(6, 22);
             dark_radiobtn.Name = "dark_radiobtn";
             dark_radiobtn.Size = new Size(92, 19);
             dark_radiobtn.TabIndex = 7;
@@ -113,7 +118,7 @@
             // 
             light_radiobtn.AutoSize = true;
             light_radiobtn.Checked = true;
-            light_radiobtn.Location = new Point(502, 82);
+            light_radiobtn.Location = new Point(121, 22);
             light_radiobtn.Name = "light_radiobtn";
             light_radiobtn.Size = new Size(88, 19);
             light_radiobtn.TabIndex = 7;
@@ -135,24 +140,59 @@
             ulozit_btn.UseVisualStyleBackColor = false;
             ulozit_btn.Click += ulozit_btn_Click;
             // 
+            // hrac1_radio
+            // 
+            hrac1_radio.AutoSize = true;
+            hrac1_radio.Location = new Point(261, 81);
+            hrac1_radio.Name = "hrac1_radio";
+            hrac1_radio.Size = new Size(14, 13);
+            hrac1_radio.TabIndex = 9;
+            hrac1_radio.UseVisualStyleBackColor = true;
+            // 
+            // hrac2_radio
+            // 
+            hrac2_radio.AutoSize = true;
+            hrac2_radio.Location = new Point(261, 167);
+            hrac2_radio.Name = "hrac2_radio";
+            hrac2_radio.Size = new Size(14, 13);
+            hrac2_radio.TabIndex = 10;
+            hrac2_radio.UseVisualStyleBackColor = true;
+            // 
+            // groupBox1
+            // 
+            groupBox1.Controls.Add(dark_radiobtn);
+            groupBox1.Controls.Add(light_radiobtn);
+            groupBox1.FlatStyle = FlatStyle.Flat;
+            groupBox1.Location = new Point(384, 81);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(260, 54);
+            groupBox1.TabIndex = 11;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "🌙 / ☀️";
+            // 
             // settings_form
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(motiv);
+            Controls.Add(groupBox1);
+            Controls.Add(hrac2_radio);
+            Controls.Add(hrac1_radio);
             Controls.Add(ulozit_btn);
-            Controls.Add(light_radiobtn);
-            Controls.Add(dark_radiobtn);
             Controls.Add(hrac2_textbox);
             Controls.Add(hrac1_textbox);
-            Controls.Add(motiv);
             Controls.Add(hrac2);
             Controls.Add(hrac1);
             Controls.Add(button1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
             Name = "settings_form";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Nastavení hry";
             Load += settings_form_Load;
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -168,5 +208,8 @@
         private RadioButton dark_radiobtn;
         private RadioButton light_radiobtn;
         private Button ulozit_btn;
+        private RadioButton hrac1_radio;
+        private RadioButton hrac2_radio;
+        private GroupBox groupBox1;
     }
 }

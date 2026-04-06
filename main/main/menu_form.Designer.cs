@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(menu_form));
             start_btn = new Button();
             set_btn = new Button();
             about_btn = new Button();
@@ -128,7 +129,9 @@
             Controls.Add(start_btn);
             Controls.Add(odejit_btn);
             Controls.Add(menuStrip1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MainMenuStrip = menuStrip1;
+            MaximizeBox = false;
             Name = "menu_form";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Zábavná hra AZ Kvíz";

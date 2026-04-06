@@ -33,6 +33,10 @@ namespace main
             {
                 HraData.JmenoHrac1 = hrac1_textbox.Text;
                 HraData.JmenoHrac2 = hrac2_textbox.Text;
+                if (hrac1_radio.Checked)
+                {
+                    HraData.PrvniTahHrace = 1;
+                }
                 MessageBox.Show("Změny byly uloženy!", "Upozornění!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
 

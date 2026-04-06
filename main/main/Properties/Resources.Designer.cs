@@ -63,6 +63,16 @@ namespace main.Properties {
         /// <summary>
         ///   Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap about_me1 {
+            get {
+                object obj = ResourceManager.GetObject("about_me1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap az_kviz_pozadi {
             get {
                 object obj = ResourceManager.GetObject("az-kviz-pozadi", resourceCulture);

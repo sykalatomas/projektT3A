@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(play_form));
             tableLayoutPanel1 = new TableLayoutPanel();
             hrac1 = new Label();
             hrac2 = new Label();
@@ -61,6 +62,8 @@
             pole_10 = new Button();
             pole_25 = new Button();
             odejit_btn = new Button();
+            hrac1_tah = new Label();
+            hrac2_tah = new Label();
             tableLayoutPanel1.SuspendLayout();
             tableLayoutPanel2.SuspendLayout();
             SuspendLayout();
@@ -77,12 +80,14 @@
             tableLayoutPanel1.Controls.Add(hrac2, 2, 0);
             tableLayoutPanel1.Controls.Add(tableLayoutPanel2, 1, 0);
             tableLayoutPanel1.Controls.Add(odejit_btn, 0, 2);
+            tableLayoutPanel1.Controls.Add(hrac1_tah, 0, 1);
+            tableLayoutPanel1.Controls.Add(hrac2_tah, 2, 1);
             tableLayoutPanel1.Dock = DockStyle.Fill;
             tableLayoutPanel1.Location = new Point(0, 0);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 3;
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 80F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 11.08545F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 78.7528839F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
             tableLayoutPanel1.Size = new Size(794, 433);
             tableLayoutPanel1.TabIndex = 0;
@@ -94,10 +99,10 @@
             hrac1.BorderStyle = BorderStyle.FixedSingle;
             hrac1.Dock = DockStyle.Fill;
             hrac1.FlatStyle = FlatStyle.Flat;
-            hrac1.Font = new Font("DynaPuff", 11.9999981F);
+            hrac1.Font = new Font("DynaPuff", 15.7499981F);
             hrac1.Location = new Point(3, 0);
             hrac1.Name = "hrac1";
-            hrac1.Size = new Size(89, 43);
+            hrac1.Size = new Size(89, 48);
             hrac1.TabIndex = 6;
             hrac1.Text = "Hráč č. 1";
             hrac1.TextAlign = ContentAlignment.MiddleCenter;
@@ -109,10 +114,10 @@
             hrac2.BorderStyle = BorderStyle.FixedSingle;
             hrac2.Dock = DockStyle.Fill;
             hrac2.FlatStyle = FlatStyle.Flat;
-            hrac2.Font = new Font("DynaPuff", 11.9999981F);
+            hrac2.Font = new Font("DynaPuff", 15.7499981F);
             hrac2.Location = new Point(700, 0);
             hrac2.Name = "hrac2";
-            hrac2.Size = new Size(91, 43);
+            hrac2.Size = new Size(91, 48);
             hrac2.TabIndex = 7;
             hrac2.Text = "Hráč č. 2";
             hrac2.TextAlign = ContentAlignment.MiddleCenter;
@@ -145,7 +150,7 @@
             tableLayoutPanel2.Controls.Add(pole_16, 1, 5);
             tableLayoutPanel2.Controls.Add(pole_17, 1, 5);
             tableLayoutPanel2.Controls.Add(pole_18, 1, 5);
-            tableLayoutPanel2.Controls.Add(pole_20, 1, 5);
+            tableLayoutPanel2.Controls.Add(pole_20, 9, 5);
             tableLayoutPanel2.Controls.Add(pole_19, 1, 5);
             tableLayoutPanel2.Controls.Add(pole_11, 2, 4);
             tableLayoutPanel2.Controls.Add(pole_12, 4, 4);
@@ -175,6 +180,9 @@
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
             tableLayoutPanel2.Size = new Size(596, 383);
             tableLayoutPanel2.TabIndex = 0;
             tableLayoutPanel2.Paint += tableLayoutPanel2_Paint;
@@ -190,7 +198,7 @@
             pole_22.FlatAppearance.MouseDownBackColor = Color.Transparent;
             pole_22.FlatAppearance.MouseOverBackColor = Color.Transparent;
             pole_22.FlatStyle = FlatStyle.Flat;
-            pole_22.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
+            pole_22.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
             pole_22.Location = new Point(3, 327);
             pole_22.Name = "pole_22";
             pole_22.Size = new Size(78, 53);
@@ -209,7 +217,7 @@
             pole_23.FlatAppearance.MouseDownBackColor = Color.Transparent;
             pole_23.FlatAppearance.MouseOverBackColor = Color.Transparent;
             pole_23.FlatStyle = FlatStyle.Flat;
-            pole_23.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
+            pole_23.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
             pole_23.Location = new Point(87, 327);
             pole_23.Name = "pole_23";
             pole_23.Size = new Size(78, 53);
@@ -228,7 +236,7 @@
             pole_24.FlatAppearance.MouseDownBackColor = Color.Transparent;
             pole_24.FlatAppearance.MouseOverBackColor = Color.Transparent;
             pole_24.FlatStyle = FlatStyle.Flat;
-            pole_24.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
+            pole_24.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
             pole_24.Location = new Point(171, 327);
             pole_24.Name = "pole_24";
             pole_24.Size = new Size(78, 53);
@@ -247,7 +255,7 @@
             pole_26.FlatAppearance.MouseDownBackColor = Color.Transparent;
             pole_26.FlatAppearance.MouseOverBackColor = Color.Transparent;
             pole_26.FlatStyle = FlatStyle.Flat;
-            pole_26.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
+            pole_26.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
             pole_26.Location = new Point(339, 327);
             pole_26.Name = "pole_26";
             pole_26.Size = new Size(78, 53);
@@ -266,7 +274,7 @@
             pole_27.FlatAppearance.MouseDownBackColor = Color.Transparent;
             pole_27.FlatAppearance.MouseOverBackColor = Color.Transparent;
             pole_27.FlatStyle = FlatStyle.Flat;
-            pole_27.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
+            pole_27.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
             pole_27.Location = new Point(423, 327);
             pole_27.Name = "pole_27";
             pole_27.Size = new Size(78, 53);
@@ -285,7 +293,7 @@
             pole_28.FlatAppearance.MouseDownBackColor = Color.Transparent;
             pole_28.FlatAppearance.MouseOverBackColor = Color.Transparent;
             pole_28.FlatStyle = FlatStyle.Flat;
-            pole_28.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
+            pole_28.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
             pole_28.Location = new Point(507, 327);
             pole_28.Name = "pole_28";
             pole_28.Size = new Size(86, 53);
@@ -304,7 +312,7 @@
             pole_21.FlatAppearance.MouseDownBackColor = Color.Transparent;
             pole_21.FlatAppearance.MouseOverBackColor = Color.Transparent;
             pole_21.FlatStyle = FlatStyle.Flat;
-            pole_21.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
+            pole_21.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
             pole_21.Location = new Point(465, 273);
             pole_21.Name = "pole_21";
             pole_21.Size = new Size(78, 48);
@@ -323,8 +331,8 @@
             pole_16.FlatAppearance.MouseDownBackColor = Color.Transparent;
             pole_16.FlatAppearance.MouseOverBackColor = Color.Transparent;
             pole_16.FlatStyle = FlatStyle.Flat;
-            pole_16.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
-            pole_16.Location = new Point(129, 273);
+            pole_16.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
+            pole_16.Location = new Point(45, 273);
             pole_16.Name = "pole_16";
             pole_16.Size = new Size(78, 48);
             pole_16.TabIndex = 19;
@@ -342,8 +350,8 @@
             pole_17.FlatAppearance.MouseDownBackColor = Color.Transparent;
             pole_17.FlatAppearance.MouseOverBackColor = Color.Transparent;
             pole_17.FlatStyle = FlatStyle.Flat;
-            pole_17.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
-            pole_17.Location = new Point(213, 273);
+            pole_17.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
+            pole_17.Location = new Point(129, 273);
             pole_17.Name = "pole_17";
             pole_17.Size = new Size(78, 48);
             pole_17.TabIndex = 15;
@@ -361,8 +369,8 @@
             pole_18.FlatAppearance.MouseDownBackColor = Color.Transparent;
             pole_18.FlatAppearance.MouseOverBackColor = Color.Transparent;
             pole_18.FlatStyle = FlatStyle.Flat;
-            pole_18.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
-            pole_18.Location = new Point(297, 273);
+            pole_18.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
+            pole_18.Location = new Point(213, 273);
             pole_18.Name = "pole_18";
             pole_18.Size = new Size(78, 48);
             pole_18.TabIndex = 16;
@@ -380,8 +388,8 @@
             pole_20.FlatAppearance.MouseDownBackColor = Color.Transparent;
             pole_20.FlatAppearance.MouseOverBackColor = Color.Transparent;
             pole_20.FlatStyle = FlatStyle.Flat;
-            pole_20.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
-            pole_20.Location = new Point(45, 273);
+            pole_20.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
+            pole_20.Location = new Point(381, 273);
             pole_20.Name = "pole_20";
             pole_20.Size = new Size(78, 48);
             pole_20.TabIndex = 17;
@@ -399,8 +407,8 @@
             pole_19.FlatAppearance.MouseDownBackColor = Color.Transparent;
             pole_19.FlatAppearance.MouseOverBackColor = Color.Transparent;
             pole_19.FlatStyle = FlatStyle.Flat;
-            pole_19.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
-            pole_19.Location = new Point(381, 273);
+            pole_19.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
+            pole_19.Location = new Point(297, 273);
             pole_19.Name = "pole_19";
             pole_19.Size = new Size(78, 48);
             pole_19.TabIndex = 18;
@@ -418,7 +426,7 @@
             pole_11.FlatAppearance.MouseDownBackColor = Color.Transparent;
             pole_11.FlatAppearance.MouseOverBackColor = Color.Transparent;
             pole_11.FlatStyle = FlatStyle.Flat;
-            pole_11.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
+            pole_11.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
             pole_11.Location = new Point(87, 219);
             pole_11.Name = "pole_11";
             pole_11.Size = new Size(78, 48);
@@ -437,7 +445,7 @@
             pole_12.FlatAppearance.MouseDownBackColor = Color.Transparent;
             pole_12.FlatAppearance.MouseOverBackColor = Color.Transparent;
             pole_12.FlatStyle = FlatStyle.Flat;
-            pole_12.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
+            pole_12.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
             pole_12.Location = new Point(171, 219);
             pole_12.Name = "pole_12";
             pole_12.Size = new Size(78, 48);
@@ -456,7 +464,7 @@
             pole_13.FlatAppearance.MouseDownBackColor = Color.Transparent;
             pole_13.FlatAppearance.MouseOverBackColor = Color.Transparent;
             pole_13.FlatStyle = FlatStyle.Flat;
-            pole_13.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
+            pole_13.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
             pole_13.Location = new Point(255, 219);
             pole_13.Name = "pole_13";
             pole_13.Size = new Size(78, 48);
@@ -475,7 +483,7 @@
             pole_14.FlatAppearance.MouseDownBackColor = Color.Transparent;
             pole_14.FlatAppearance.MouseOverBackColor = Color.Transparent;
             pole_14.FlatStyle = FlatStyle.Flat;
-            pole_14.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
+            pole_14.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
             pole_14.Location = new Point(339, 219);
             pole_14.Name = "pole_14";
             pole_14.Size = new Size(78, 48);
@@ -494,7 +502,7 @@
             pole_15.FlatAppearance.MouseDownBackColor = Color.Transparent;
             pole_15.FlatAppearance.MouseOverBackColor = Color.Transparent;
             pole_15.FlatStyle = FlatStyle.Flat;
-            pole_15.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
+            pole_15.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
             pole_15.Location = new Point(423, 219);
             pole_15.Name = "pole_15";
             pole_15.Size = new Size(78, 48);
@@ -514,7 +522,7 @@
             pole_1.FlatAppearance.MouseDownBackColor = Color.Transparent;
             pole_1.FlatAppearance.MouseOverBackColor = Color.Transparent;
             pole_1.FlatStyle = FlatStyle.Flat;
-            pole_1.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
+            pole_1.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
             pole_1.Location = new Point(255, 3);
             pole_1.Name = "pole_1";
             pole_1.Size = new Size(78, 48);
@@ -533,7 +541,7 @@
             pole_2.FlatAppearance.MouseDownBackColor = Color.Transparent;
             pole_2.FlatAppearance.MouseOverBackColor = Color.Transparent;
             pole_2.FlatStyle = FlatStyle.Flat;
-            pole_2.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
+            pole_2.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
             pole_2.Location = new Point(213, 57);
             pole_2.Name = "pole_2";
             pole_2.Size = new Size(78, 48);
@@ -552,7 +560,7 @@
             pole_3.FlatAppearance.MouseDownBackColor = Color.Transparent;
             pole_3.FlatAppearance.MouseOverBackColor = Color.Transparent;
             pole_3.FlatStyle = FlatStyle.Flat;
-            pole_3.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
+            pole_3.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
             pole_3.Location = new Point(297, 57);
             pole_3.Name = "pole_3";
             pole_3.Size = new Size(78, 48);
@@ -571,7 +579,7 @@
             pole_4.FlatAppearance.MouseDownBackColor = Color.Transparent;
             pole_4.FlatAppearance.MouseOverBackColor = Color.Transparent;
             pole_4.FlatStyle = FlatStyle.Flat;
-            pole_4.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
+            pole_4.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
             pole_4.Location = new Point(171, 111);
             pole_4.Name = "pole_4";
             pole_4.Size = new Size(78, 48);
@@ -590,7 +598,7 @@
             pole_5.FlatAppearance.MouseDownBackColor = Color.Transparent;
             pole_5.FlatAppearance.MouseOverBackColor = Color.Transparent;
             pole_5.FlatStyle = FlatStyle.Flat;
-            pole_5.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
+            pole_5.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
             pole_5.Location = new Point(255, 111);
             pole_5.Name = "pole_5";
             pole_5.Size = new Size(78, 48);
@@ -609,7 +617,7 @@
             pole_6.FlatAppearance.MouseDownBackColor = Color.Transparent;
             pole_6.FlatAppearance.MouseOverBackColor = Color.Transparent;
             pole_6.FlatStyle = FlatStyle.Flat;
-            pole_6.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
+            pole_6.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
             pole_6.Location = new Point(339, 111);
             pole_6.Name = "pole_6";
             pole_6.Size = new Size(78, 48);
@@ -628,7 +636,7 @@
             pole_7.FlatAppearance.MouseDownBackColor = Color.Transparent;
             pole_7.FlatAppearance.MouseOverBackColor = Color.Transparent;
             pole_7.FlatStyle = FlatStyle.Flat;
-            pole_7.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
+            pole_7.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
             pole_7.Location = new Point(129, 165);
             pole_7.Name = "pole_7";
             pole_7.Size = new Size(78, 48);
@@ -647,7 +655,7 @@
             pole_8.FlatAppearance.MouseDownBackColor = Color.Transparent;
             pole_8.FlatAppearance.MouseOverBackColor = Color.Transparent;
             pole_8.FlatStyle = FlatStyle.Flat;
-            pole_8.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
+            pole_8.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
             pole_8.Location = new Point(213, 165);
             pole_8.Name = "pole_8";
             pole_8.Size = new Size(78, 48);
@@ -666,7 +674,7 @@
             pole_9.FlatAppearance.MouseDownBackColor = Color.Transparent;
             pole_9.FlatAppearance.MouseOverBackColor = Color.Transparent;
             pole_9.FlatStyle = FlatStyle.Flat;
-            pole_9.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
+            pole_9.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
             pole_9.Location = new Point(297, 165);
             pole_9.Name = "pole_9";
             pole_9.Size = new Size(78, 48);
@@ -685,7 +693,7 @@
             pole_10.FlatAppearance.MouseDownBackColor = Color.Transparent;
             pole_10.FlatAppearance.MouseOverBackColor = Color.Transparent;
             pole_10.FlatStyle = FlatStyle.Flat;
-            pole_10.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
+            pole_10.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
             pole_10.Location = new Point(381, 165);
             pole_10.Name = "pole_10";
             pole_10.Size = new Size(78, 48);
@@ -704,7 +712,7 @@
             pole_25.FlatAppearance.MouseDownBackColor = Color.Transparent;
             pole_25.FlatAppearance.MouseOverBackColor = Color.Transparent;
             pole_25.FlatStyle = FlatStyle.Flat;
-            pole_25.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
+            pole_25.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
             pole_25.Location = new Point(255, 327);
             pole_25.Name = "pole_25";
             pole_25.Size = new Size(78, 53);
@@ -726,6 +734,36 @@
             odejit_btn.UseVisualStyleBackColor = false;
             odejit_btn.Click += odejit_btn_Click_1;
             // 
+            // hrac1_tah
+            // 
+            hrac1_tah.Anchor = AnchorStyles.Top;
+            hrac1_tah.AutoSize = true;
+            hrac1_tah.BackColor = Color.Transparent;
+            hrac1_tah.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic);
+            hrac1_tah.ForeColor = Color.White;
+            hrac1_tah.Location = new Point(21, 58);
+            hrac1_tah.Margin = new Padding(10);
+            hrac1_tah.Name = "hrac1_tah";
+            hrac1_tah.Size = new Size(53, 21);
+            hrac1_tah.TabIndex = 8;
+            hrac1_tah.Text = "label1";
+            hrac1_tah.Visible = false;
+            // 
+            // hrac2_tah
+            // 
+            hrac2_tah.Anchor = AnchorStyles.Top;
+            hrac2_tah.AutoSize = true;
+            hrac2_tah.BackColor = Color.Transparent;
+            hrac2_tah.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic);
+            hrac2_tah.ForeColor = Color.White;
+            hrac2_tah.Location = new Point(718, 58);
+            hrac2_tah.Margin = new Padding(10);
+            hrac2_tah.Name = "hrac2_tah";
+            hrac2_tah.Size = new Size(54, 21);
+            hrac2_tah.TabIndex = 9;
+            hrac2_tah.Text = "label2";
+            hrac2_tah.Visible = false;
+            // 
             // play_form
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -735,6 +773,7 @@
             BackgroundImageLayout = ImageLayout.Zoom;
             ClientSize = new Size(794, 433);
             Controls.Add(tableLayoutPanel1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "play_form";
             Text = "play_form";
             WindowState = FormWindowState.Maximized;
@@ -780,5 +819,7 @@
         private Button pole_25;
         private Label hrac1;
         private Label hrac2;
+        private Label hrac1_tah;
+        private Label hrac2_tah;
     }
 }
