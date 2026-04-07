@@ -7,14 +7,56 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace main
 {
     public partial class play_form : Form
     {
+        public class Otazka
+        {
+            public string Text { get; set; }
+            public string Odpoved { get; set; }
+
+            public Otazka(string text, string odpoved)
+            {
+                Text = text;
+                Odpoved = odpoved;
+            }
+        }
+
+        List<Otazka> seznamOtazek = new List<Otazka>();
+
+        private void NaplnOtazek()
+        {
+            string cesta = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "otazky.txt");
+            try
+            {
+                string[] radky = File.ReadAllLines(cesta);
+                foreach (string radek in radky)
+                {
+                    string[] casti = radek.Split(';');
+                    if (casti.Length == 2)
+                    {
+                        string textOtazky = casti[0];
+                        string odpoved = casti[1];
+                        seznamOtazek.Add(new Otazka(textOtazky, odpoved));
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Chyba při načítání otázek: " + ex.Message);
+            }
+        }
+
+
         public play_form()
         {
             InitializeComponent();
+            NaplnOtazek();
+
+
         }
 
         private void play_form_Load(object sender, EventArgs e)
@@ -34,18 +76,6 @@ namespace main
             }
         }
 
-        private void odejit_btn_Click(object sender, EventArgs e)
-        {
-            this.Close();
-            menu_form menu = new menu_form();
-            menu.Show();
-        }
-
-        private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void odejit_btn_Click_1(object sender, EventArgs e)
         {
             DialogResult result;
@@ -59,9 +89,12 @@ namespace main
 
         }
 
-        private void hrac1_Click(object sender, EventArgs e)
+        private void pole_1_Click(object sender, EventArgs e)
         {
-            
+            Button pole_1_vybrano = (Button)sender;
+            int indexOtazky = Convert.ToInt32(pole_1_vybrano.Tag);
+            Otazka vybranaOtazka = seznamOtazek[indexOtazky];
+            MessageBox.Show(vybranaOtazka.Text, "Otázka", MessageBoxButtons.OK, MessageBoxIcon.Question);
         }
     }
 }

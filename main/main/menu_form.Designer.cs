@@ -129,6 +129,7 @@
             Controls.Add(start_btn);
             Controls.Add(odejit_btn);
             Controls.Add(menuStrip1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
             MainMenuStrip = menuStrip1;
             MaximizeBox = false;

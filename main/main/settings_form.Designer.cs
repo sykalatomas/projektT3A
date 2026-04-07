@@ -109,7 +109,7 @@
             dark_radiobtn.AutoSize = true;
             dark_radiobtn.Location = new Point(6, 22);
             dark_radiobtn.Name = "dark_radiobtn";
-            dark_radiobtn.Size = new Size(92, 19);
+            dark_radiobtn.Size = new Size(91, 19);
             dark_radiobtn.TabIndex = 7;
             dark_radiobtn.Text = "Tmavý režim";
             dark_radiobtn.UseVisualStyleBackColor = true;
@@ -185,6 +185,7 @@
             Controls.Add(hrac2);
             Controls.Add(hrac1);
             Controls.Add(button1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "settings_form";

@@ -99,7 +99,7 @@
             hrac1.BorderStyle = BorderStyle.FixedSingle;
             hrac1.Dock = DockStyle.Fill;
             hrac1.FlatStyle = FlatStyle.Flat;
-            hrac1.Font = new Font("DynaPuff", 15.7499981F);
+            hrac1.Font = new Font("Microsoft Sans Serif", 15.7499981F);
             hrac1.Location = new Point(3, 0);
             hrac1.Name = "hrac1";
             hrac1.Size = new Size(89, 48);
@@ -114,7 +114,7 @@
             hrac2.BorderStyle = BorderStyle.FixedSingle;
             hrac2.Dock = DockStyle.Fill;
             hrac2.FlatStyle = FlatStyle.Flat;
-            hrac2.Font = new Font("DynaPuff", 15.7499981F);
+            hrac2.Font = new Font("Microsoft Sans Serif", 15.7499981F);
             hrac2.Location = new Point(700, 0);
             hrac2.Name = "hrac2";
             hrac2.Size = new Size(91, 48);
@@ -185,7 +185,6 @@
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
             tableLayoutPanel2.Size = new Size(596, 383);
             tableLayoutPanel2.TabIndex = 0;
-            tableLayoutPanel2.Paint += tableLayoutPanel2_Paint;
             // 
             // pole_22
             // 
@@ -203,6 +202,7 @@
             pole_22.Name = "pole_22";
             pole_22.Size = new Size(78, 53);
             pole_22.TabIndex = 26;
+            pole_22.Tag = "21";
             pole_22.Text = "22";
             pole_22.UseVisualStyleBackColor = true;
             // 
@@ -222,6 +222,7 @@
             pole_23.Name = "pole_23";
             pole_23.Size = new Size(78, 53);
             pole_23.TabIndex = 25;
+            pole_23.Tag = "22";
             pole_23.Text = "23";
             pole_23.UseVisualStyleBackColor = true;
             // 
@@ -241,6 +242,7 @@
             pole_24.Name = "pole_24";
             pole_24.Size = new Size(78, 53);
             pole_24.TabIndex = 21;
+            pole_24.Tag = "23";
             pole_24.Text = "24";
             pole_24.UseVisualStyleBackColor = true;
             // 
@@ -260,6 +262,7 @@
             pole_26.Name = "pole_26";
             pole_26.Size = new Size(78, 53);
             pole_26.TabIndex = 22;
+            pole_26.Tag = "25";
             pole_26.Text = "26";
             pole_26.UseVisualStyleBackColor = true;
             // 
@@ -279,6 +282,7 @@
             pole_27.Name = "pole_27";
             pole_27.Size = new Size(78, 53);
             pole_27.TabIndex = 23;
+            pole_27.Tag = "26";
             pole_27.Text = "27";
             pole_27.UseVisualStyleBackColor = true;
             // 
@@ -298,6 +302,7 @@
             pole_28.Name = "pole_28";
             pole_28.Size = new Size(86, 53);
             pole_28.TabIndex = 24;
+            pole_28.Tag = "27";
             pole_28.Text = "28";
             pole_28.UseVisualStyleBackColor = true;
             // 
@@ -317,6 +322,7 @@
             pole_21.Name = "pole_21";
             pole_21.Size = new Size(78, 48);
             pole_21.TabIndex = 20;
+            pole_21.Tag = "20";
             pole_21.Text = "21";
             pole_21.UseVisualStyleBackColor = true;
             // 
@@ -336,6 +342,7 @@
             pole_16.Name = "pole_16";
             pole_16.Size = new Size(78, 48);
             pole_16.TabIndex = 19;
+            pole_16.Tag = "15";
             pole_16.Text = "16";
             pole_16.UseVisualStyleBackColor = true;
             // 
@@ -355,6 +362,7 @@
             pole_17.Name = "pole_17";
             pole_17.Size = new Size(78, 48);
             pole_17.TabIndex = 15;
+            pole_17.Tag = "16";
             pole_17.Text = "17";
             pole_17.UseVisualStyleBackColor = true;
             // 
@@ -374,6 +382,7 @@
             pole_18.Name = "pole_18";
             pole_18.Size = new Size(78, 48);
             pole_18.TabIndex = 16;
+            pole_18.Tag = "17";
             pole_18.Text = "18";
             pole_18.UseVisualStyleBackColor = true;
             // 
@@ -393,6 +402,7 @@
             pole_20.Name = "pole_20";
             pole_20.Size = new Size(78, 48);
             pole_20.TabIndex = 17;
+            pole_20.Tag = "19";
             pole_20.Text = "20";
             pole_20.UseVisualStyleBackColor = true;
             // 
@@ -412,6 +422,7 @@
             pole_19.Name = "pole_19";
             pole_19.Size = new Size(78, 48);
             pole_19.TabIndex = 18;
+            pole_19.Tag = "18";
             pole_19.Text = "19";
             pole_19.UseVisualStyleBackColor = true;
             // 
@@ -431,6 +442,7 @@
             pole_11.Name = "pole_11";
             pole_11.Size = new Size(78, 48);
             pole_11.TabIndex = 14;
+            pole_11.Tag = "10";
             pole_11.Text = "11";
             pole_11.UseVisualStyleBackColor = true;
             // 
@@ -450,6 +462,7 @@
             pole_12.Name = "pole_12";
             pole_12.Size = new Size(78, 48);
             pole_12.TabIndex = 10;
+            pole_12.Tag = "11";
             pole_12.Text = "12";
             pole_12.UseVisualStyleBackColor = true;
             // 
@@ -469,6 +482,7 @@
             pole_13.Name = "pole_13";
             pole_13.Size = new Size(78, 48);
             pole_13.TabIndex = 11;
+            pole_13.Tag = "12";
             pole_13.Text = "13";
             pole_13.UseVisualStyleBackColor = true;
             // 
@@ -488,6 +502,7 @@
             pole_14.Name = "pole_14";
             pole_14.Size = new Size(78, 48);
             pole_14.TabIndex = 12;
+            pole_14.Tag = "13";
             pole_14.Text = "14";
             pole_14.UseVisualStyleBackColor = true;
             // 
@@ -507,6 +522,7 @@
             pole_15.Name = "pole_15";
             pole_15.Size = new Size(78, 48);
             pole_15.TabIndex = 13;
+            pole_15.Tag = "14";
             pole_15.Text = "15";
             pole_15.UseVisualStyleBackColor = true;
             // 
@@ -527,8 +543,10 @@
             pole_1.Name = "pole_1";
             pole_1.Size = new Size(78, 48);
             pole_1.TabIndex = 0;
+            pole_1.Tag = "0";
             pole_1.Text = "1";
             pole_1.UseVisualStyleBackColor = false;
+            pole_1.Click += pole_1_Click;
             // 
             // pole_2
             // 
@@ -546,6 +564,7 @@
             pole_2.Name = "pole_2";
             pole_2.Size = new Size(78, 48);
             pole_2.TabIndex = 1;
+            pole_2.Tag = "1";
             pole_2.Text = "2";
             pole_2.UseVisualStyleBackColor = true;
             // 
@@ -565,6 +584,7 @@
             pole_3.Name = "pole_3";
             pole_3.Size = new Size(78, 48);
             pole_3.TabIndex = 2;
+            pole_3.Tag = "2";
             pole_3.Text = "3";
             pole_3.UseVisualStyleBackColor = true;
             // 
@@ -584,6 +604,7 @@
             pole_4.Name = "pole_4";
             pole_4.Size = new Size(78, 48);
             pole_4.TabIndex = 3;
+            pole_4.Tag = "3";
             pole_4.Text = "4";
             pole_4.UseVisualStyleBackColor = true;
             // 
@@ -603,6 +624,7 @@
             pole_5.Name = "pole_5";
             pole_5.Size = new Size(78, 48);
             pole_5.TabIndex = 4;
+            pole_5.Tag = "4";
             pole_5.Text = "5";
             pole_5.UseVisualStyleBackColor = true;
             // 
@@ -622,6 +644,7 @@
             pole_6.Name = "pole_6";
             pole_6.Size = new Size(78, 48);
             pole_6.TabIndex = 5;
+            pole_6.Tag = "5";
             pole_6.Text = "6";
             pole_6.UseVisualStyleBackColor = true;
             // 
@@ -641,6 +664,7 @@
             pole_7.Name = "pole_7";
             pole_7.Size = new Size(78, 48);
             pole_7.TabIndex = 6;
+            pole_7.Tag = "6";
             pole_7.Text = "7";
             pole_7.UseVisualStyleBackColor = true;
             // 
@@ -660,6 +684,7 @@
             pole_8.Name = "pole_8";
             pole_8.Size = new Size(78, 48);
             pole_8.TabIndex = 7;
+            pole_8.Tag = "7";
             pole_8.Text = "8";
             pole_8.UseVisualStyleBackColor = true;
             // 
@@ -679,6 +704,7 @@
             pole_9.Name = "pole_9";
             pole_9.Size = new Size(78, 48);
             pole_9.TabIndex = 8;
+            pole_9.Tag = "8";
             pole_9.Text = "9";
             pole_9.UseVisualStyleBackColor = true;
             // 
@@ -698,6 +724,7 @@
             pole_10.Name = "pole_10";
             pole_10.Size = new Size(78, 48);
             pole_10.TabIndex = 9;
+            pole_10.Tag = "9";
             pole_10.Text = "10";
             pole_10.UseVisualStyleBackColor = true;
             // 
@@ -717,6 +744,7 @@
             pole_25.Name = "pole_25";
             pole_25.Size = new Size(78, 53);
             pole_25.TabIndex = 27;
+            pole_25.Tag = "24";
             pole_25.Text = "25";
             pole_25.UseVisualStyleBackColor = true;
             // 
