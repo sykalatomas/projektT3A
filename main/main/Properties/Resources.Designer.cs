@@ -113,6 +113,16 @@ namespace main.Properties {
         /// <summary>
         ///   Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap sestiuhelnik_cerny {
+            get {
+                object obj = ResourceManager.GetObject("sestiuhelnik_cerny", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap sestiuhelnik_zlata {
             get {
                 object obj = ResourceManager.GetObject("sestiuhelnik_zlata", resourceCulture);

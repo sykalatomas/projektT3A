@@ -41,3 +41,5 @@ D:\Users\SykalaTomáš\source\repos\sykalatomas\projektT3A\main\main\obj\Debug\n
 D:\Users\SykalaTomáš\source\repos\sykalatomas\projektT3A\main\main\obj\Debug\net8.0-windows\main.pdb
 D:\Users\SykalaTomáš\source\repos\sykalatomas\projektT3A\main\main\obj\Debug\net8.0-windows\main.genruntimeconfig.cache
 D:\Users\SykalaTomáš\source\repos\sykalatomas\projektT3A\main\main\obj\Debug\net8.0-windows\ref\main.dll
+C:\Users\tomas\source\repos\sykalatomas\projektT3A\main\main\bin\Debug\net8.0-windows\otazky.txt
+C:\Users\tomas\source\repos\sykalatomas\projektT3A\main\main\obj\Debug\net8.0-windows\main.QuestionForm.resources

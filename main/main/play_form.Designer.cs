@@ -205,6 +205,7 @@
             pole_22.Tag = "21";
             pole_22.Text = "22";
             pole_22.UseVisualStyleBackColor = true;
+            pole_22.Click += pole_22_Click;
             // 
             // pole_23
             // 
@@ -225,6 +226,7 @@
             pole_23.Tag = "22";
             pole_23.Text = "23";
             pole_23.UseVisualStyleBackColor = true;
+            pole_23.Click += pole_23_Click;
             // 
             // pole_24
             // 
@@ -245,6 +247,7 @@
             pole_24.Tag = "23";
             pole_24.Text = "24";
             pole_24.UseVisualStyleBackColor = true;
+            pole_24.Click += pole_24_Click;
             // 
             // pole_26
             // 
@@ -265,6 +268,7 @@
             pole_26.Tag = "25";
             pole_26.Text = "26";
             pole_26.UseVisualStyleBackColor = true;
+            pole_26.Click += pole_26_Click;
             // 
             // pole_27
             // 
@@ -285,6 +289,7 @@
             pole_27.Tag = "26";
             pole_27.Text = "27";
             pole_27.UseVisualStyleBackColor = true;
+            pole_27.Click += pole_27_Click;
             // 
             // pole_28
             // 
@@ -305,6 +310,7 @@
             pole_28.Tag = "27";
             pole_28.Text = "28";
             pole_28.UseVisualStyleBackColor = true;
+            pole_28.Click += pole_28_Click;
             // 
             // pole_21
             // 
@@ -325,6 +331,7 @@
             pole_21.Tag = "20";
             pole_21.Text = "21";
             pole_21.UseVisualStyleBackColor = true;
+            pole_21.Click += pole_21_Click;
             // 
             // pole_16
             // 
@@ -345,6 +352,7 @@
             pole_16.Tag = "15";
             pole_16.Text = "16";
             pole_16.UseVisualStyleBackColor = true;
+            pole_16.Click += pole_16_Click;
             // 
             // pole_17
             // 
@@ -365,6 +373,7 @@
             pole_17.Tag = "16";
             pole_17.Text = "17";
             pole_17.UseVisualStyleBackColor = true;
+            pole_17.Click += pole_17_Click;
             // 
             // pole_18
             // 
@@ -385,6 +394,7 @@
             pole_18.Tag = "17";
             pole_18.Text = "18";
             pole_18.UseVisualStyleBackColor = true;
+            pole_18.Click += pole_18_Click;
             // 
             // pole_20
             // 
@@ -405,6 +415,7 @@
             pole_20.Tag = "19";
             pole_20.Text = "20";
             pole_20.UseVisualStyleBackColor = true;
+            pole_20.Click += pole_20_Click;
             // 
             // pole_19
             // 
@@ -425,6 +436,7 @@
             pole_19.Tag = "18";
             pole_19.Text = "19";
             pole_19.UseVisualStyleBackColor = true;
+            pole_19.Click += pole_19_Click;
             // 
             // pole_11
             // 
@@ -445,6 +457,7 @@
             pole_11.Tag = "10";
             pole_11.Text = "11";
             pole_11.UseVisualStyleBackColor = true;
+            pole_11.Click += pole_11_Click;
             // 
             // pole_12
             // 
@@ -465,6 +478,7 @@
             pole_12.Tag = "11";
             pole_12.Text = "12";
             pole_12.UseVisualStyleBackColor = true;
+            pole_12.Click += pole_12_Click;
             // 
             // pole_13
             // 
@@ -485,6 +499,7 @@
             pole_13.Tag = "12";
             pole_13.Text = "13";
             pole_13.UseVisualStyleBackColor = true;
+            pole_13.Click += pole_13_Click;
             // 
             // pole_14
             // 
@@ -505,6 +520,7 @@
             pole_14.Tag = "13";
             pole_14.Text = "14";
             pole_14.UseVisualStyleBackColor = true;
+            pole_14.Click += pole_14_Click;
             // 
             // pole_15
             // 
@@ -525,6 +541,7 @@
             pole_15.Tag = "14";
             pole_15.Text = "15";
             pole_15.UseVisualStyleBackColor = true;
+            pole_15.Click += pole_15_Click;
             // 
             // pole_1
             // 
@@ -567,6 +584,7 @@
             pole_2.Tag = "1";
             pole_2.Text = "2";
             pole_2.UseVisualStyleBackColor = true;
+            pole_2.Click += pole_2_Click;
             // 
             // pole_3
             // 
@@ -587,6 +605,7 @@
             pole_3.Tag = "2";
             pole_3.Text = "3";
             pole_3.UseVisualStyleBackColor = true;
+            pole_3.Click += pole_3_Click;
             // 
             // pole_4
             // 
@@ -607,6 +626,7 @@
             pole_4.Tag = "3";
             pole_4.Text = "4";
             pole_4.UseVisualStyleBackColor = true;
+            pole_4.Click += pole_4_Click;
             // 
             // pole_5
             // 
@@ -627,6 +647,7 @@
             pole_5.Tag = "4";
             pole_5.Text = "5";
             pole_5.UseVisualStyleBackColor = true;
+            pole_5.Click += pole_5_Click;
             // 
             // pole_6
             // 
@@ -647,6 +668,7 @@
             pole_6.Tag = "5";
             pole_6.Text = "6";
             pole_6.UseVisualStyleBackColor = true;
+            pole_6.Click += pole_6_Click;
             // 
             // pole_7
             // 
@@ -667,6 +689,7 @@
             pole_7.Tag = "6";
             pole_7.Text = "7";
             pole_7.UseVisualStyleBackColor = true;
+            pole_7.Click += pole_7_Click;
             // 
             // pole_8
             // 
@@ -687,6 +710,7 @@
             pole_8.Tag = "7";
             pole_8.Text = "8";
             pole_8.UseVisualStyleBackColor = true;
+            pole_8.Click += pole_8_Click;
             // 
             // pole_9
             // 
@@ -707,6 +731,7 @@
             pole_9.Tag = "8";
             pole_9.Text = "9";
             pole_9.UseVisualStyleBackColor = true;
+            pole_9.Click += pole_9_Click;
             // 
             // pole_10
             // 
@@ -727,6 +752,7 @@
             pole_10.Tag = "9";
             pole_10.Text = "10";
             pole_10.UseVisualStyleBackColor = true;
+            pole_10.Click += pole_10_Click;
             // 
             // pole_25
             // 
@@ -747,6 +773,7 @@
             pole_25.Tag = "24";
             pole_25.Text = "25";
             pole_25.UseVisualStyleBackColor = true;
+            pole_25.Click += pole_25_Click;
             // 
             // odejit_btn
             // 

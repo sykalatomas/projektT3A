@@ -10,6 +10,9 @@
     <Compile Update="play_form.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="QuestionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="settings_form.cs">
       <SubType>Form</SubType>
     </Compile>

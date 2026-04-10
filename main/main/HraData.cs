@@ -10,7 +10,6 @@ namespace main
     {
         public static string JmenoHrac1 { get; set; } = "Hráč 1";
         public static string JmenoHrac2 { get; set; } = "Hráč 2";
-        public static int PrvniTahHrace { get; set; } = 0;
-
+        public static int hracNaRade { get; set; } = 0;
     }
 }
