@@ -77,10 +77,11 @@
             // 
             // menuStrip1
             // 
+            menuStrip1.ImageScalingSize = new Size(24, 24);
             menuStrip1.Items.AddRange(new ToolStripItem[] { uKONČITToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(1200, 24);
+            menuStrip1.Size = new Size(1132, 24);
             menuStrip1.TabIndex = 2;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -109,7 +110,7 @@
             odejit_btn.FlatStyle = FlatStyle.Flat;
             odejit_btn.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 238);
             odejit_btn.ForeColor = SystemColors.Control;
-            odejit_btn.Location = new Point(12, 590);
+            odejit_btn.Location = new Point(12, 589);
             odejit_btn.Name = "odejit_btn";
             odejit_btn.Size = new Size(95, 42);
             odejit_btn.TabIndex = 0;
@@ -122,7 +123,8 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Poster__Facebook1200x675;
-            ClientSize = new Size(1200, 644);
+            BackgroundImageLayout = ImageLayout.Zoom;
+            ClientSize = new Size(1132, 643);
             Controls.Add(label1);
             Controls.Add(about_btn);
             Controls.Add(set_btn);

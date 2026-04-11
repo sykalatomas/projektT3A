@@ -85,6 +85,7 @@
             hrac1_textbox.Size = new Size(198, 23);
             hrac1_textbox.TabIndex = 5;
             hrac1_textbox.Text = "Hráč 1";
+            hrac1_textbox.TextChanged += hrac1_textbox_TextChanged;
             // 
             // hrac2_textbox
             // 
@@ -93,6 +94,7 @@
             hrac2_textbox.Size = new Size(198, 23);
             hrac2_textbox.TabIndex = 6;
             hrac2_textbox.Text = "Hráč 2";
+            hrac2_textbox.TextChanged += hrac1_textbox_TextChanged;
             // 
             // motiv
             // 
@@ -109,7 +111,7 @@
             dark_radiobtn.AutoSize = true;
             dark_radiobtn.Location = new Point(6, 22);
             dark_radiobtn.Name = "dark_radiobtn";
-            dark_radiobtn.Size = new Size(91, 19);
+            dark_radiobtn.Size = new Size(92, 19);
             dark_radiobtn.TabIndex = 7;
             dark_radiobtn.Text = "Tmavý režim";
             dark_radiobtn.UseVisualStyleBackColor = true;

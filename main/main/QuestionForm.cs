@@ -34,7 +34,7 @@ namespace main
             if (odpoved.Text.Trim().ToLower() == spravnaOdpoved.ToLower())
             {
                 jeSpravne = true;
-                MessageBox.Show("Správně!", "Výsledek", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Správně!", "Výsledek", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             }
             else
             {

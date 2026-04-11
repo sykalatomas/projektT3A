@@ -1,4 +1,4 @@
-Jak se jmenuje nejvyšší hora České republiky?;Sněžka (1603 m n. m.)
+Jak se jmenuje nejvyšší hora České republiky?;Sněžka
 Která řeka je nejdelší na území ČR?;Vltava
 Kdo byl prvním československým prezidentem?;Tomáš Garrigue Masaryk
 Ve kterém roce vznikla samostatná Česká republika?;1993
@@ -13,8 +13,8 @@ Ve kterém městě sídlí hlavní závor automobilky Škoda Auto?;Mladá Bolesl
 Který legendární hokejista nosí na dresu číslo 68?;Jaromír Jágr
 Jak se jmenuje národní strom České republiky?;Lípa srdčitá
 Které pohoří tvoří přirozenou hranici s Polskem na severu Čech?;Krkonoše
-Který český režisér získal Oscara za film Ostře seldované vlaky?;Jiří Menzel
-Jak se oficiálně jmenuje měna používaná v ČR?;Koruna česká (CZK)
+Který český režisér získal Oscara za film Ostře sledované vlaky?;Jiří Menzel
+Jak se oficiálně jmenuje měna používaná v ČR?;Koruna česká
 Který hrad nechal Karel IV. postavit pro uložení korunovačních klenotů?;Karlštejn
 Kdo napsal slavnou povídku Babička?;Božena Němcová
 Který lékař popsal čtyři základní krevní skupiny?;Jan Janský

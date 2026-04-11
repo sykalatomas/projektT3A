@@ -83,6 +83,26 @@ namespace main.Properties {
         /// <summary>
         ///   Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap hrac_1 {
+            get {
+                object obj = ResourceManager.GetObject("hrac_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hrac_2 {
+            get {
+                object obj = ResourceManager.GetObject("hrac_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Poster__Facebook1200x675 {
             get {
                 object obj = ResourceManager.GetObject("Poster__Facebook1200x675", resourceCulture);

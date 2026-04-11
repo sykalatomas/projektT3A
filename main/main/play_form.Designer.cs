@@ -37,6 +37,7 @@
             pole_23 = new Button();
             pole_24 = new Button();
             pole_26 = new Button();
+            hrac1_tah = new Label();
             pole_27 = new Button();
             pole_28 = new Button();
             pole_21 = new Button();
@@ -61,9 +62,8 @@
             pole_9 = new Button();
             pole_10 = new Button();
             pole_25 = new Button();
-            odejit_btn = new Button();
-            hrac1_tah = new Label();
             hrac2_tah = new Label();
+            odejit_btn = new Button();
             tableLayoutPanel1.SuspendLayout();
             tableLayoutPanel2.SuspendLayout();
             SuspendLayout();
@@ -80,8 +80,6 @@
             tableLayoutPanel1.Controls.Add(hrac2, 2, 0);
             tableLayoutPanel1.Controls.Add(tableLayoutPanel2, 1, 0);
             tableLayoutPanel1.Controls.Add(odejit_btn, 0, 2);
-            tableLayoutPanel1.Controls.Add(hrac1_tah, 0, 1);
-            tableLayoutPanel1.Controls.Add(hrac2_tah, 2, 1);
             tableLayoutPanel1.Dock = DockStyle.Fill;
             tableLayoutPanel1.Location = new Point(0, 0);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -95,11 +93,11 @@
             // hrac1
             // 
             hrac1.AutoSize = true;
-            hrac1.BackColor = Color.MediumTurquoise;
-            hrac1.BorderStyle = BorderStyle.FixedSingle;
+            hrac1.BackColor = Color.Transparent;
             hrac1.Dock = DockStyle.Fill;
             hrac1.FlatStyle = FlatStyle.Flat;
-            hrac1.Font = new Font("Microsoft Sans Serif", 15.7499981F);
+            hrac1.Font = new Font("Segoe UI", 16F);
+            hrac1.Image = Properties.Resources.hrac_1;
             hrac1.Location = new Point(3, 0);
             hrac1.Name = "hrac1";
             hrac1.Size = new Size(89, 48);
@@ -110,11 +108,11 @@
             // hrac2
             // 
             hrac2.AutoSize = true;
-            hrac2.BackColor = Color.Gold;
-            hrac2.BorderStyle = BorderStyle.FixedSingle;
+            hrac2.BackColor = Color.Transparent;
             hrac2.Dock = DockStyle.Fill;
             hrac2.FlatStyle = FlatStyle.Flat;
-            hrac2.Font = new Font("Microsoft Sans Serif", 15.7499981F);
+            hrac2.Font = new Font("Segoe UI", 16F);
+            hrac2.Image = Properties.Resources.hrac_2;
             hrac2.Location = new Point(700, 0);
             hrac2.Name = "hrac2";
             hrac2.Size = new Size(91, 48);
@@ -144,6 +142,7 @@
             tableLayoutPanel2.Controls.Add(pole_23, 2, 6);
             tableLayoutPanel2.Controls.Add(pole_24, 4, 6);
             tableLayoutPanel2.Controls.Add(pole_26, 8, 6);
+            tableLayoutPanel2.Controls.Add(hrac1_tah, 0, 0);
             tableLayoutPanel2.Controls.Add(pole_27, 10, 6);
             tableLayoutPanel2.Controls.Add(pole_28, 12, 6);
             tableLayoutPanel2.Controls.Add(pole_21, 11, 5);
@@ -168,6 +167,7 @@
             tableLayoutPanel2.Controls.Add(pole_9, 7, 3);
             tableLayoutPanel2.Controls.Add(pole_10, 9, 3);
             tableLayoutPanel2.Controls.Add(pole_25, 6, 6);
+            tableLayoutPanel2.Controls.Add(hrac2_tah, 8, 0);
             tableLayoutPanel2.Dock = DockStyle.Fill;
             tableLayoutPanel2.Location = new Point(98, 3);
             tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -205,7 +205,6 @@
             pole_22.Tag = "21";
             pole_22.Text = "22";
             pole_22.UseVisualStyleBackColor = true;
-            pole_22.Click += pole_22_Click;
             // 
             // pole_23
             // 
@@ -226,7 +225,6 @@
             pole_23.Tag = "22";
             pole_23.Text = "23";
             pole_23.UseVisualStyleBackColor = true;
-            pole_23.Click += pole_23_Click;
             // 
             // pole_24
             // 
@@ -247,7 +245,6 @@
             pole_24.Tag = "23";
             pole_24.Text = "24";
             pole_24.UseVisualStyleBackColor = true;
-            pole_24.Click += pole_24_Click;
             // 
             // pole_26
             // 
@@ -268,7 +265,23 @@
             pole_26.Tag = "25";
             pole_26.Text = "26";
             pole_26.UseVisualStyleBackColor = true;
-            pole_26.Click += pole_26_Click;
+            // 
+            // hrac1_tah
+            // 
+            hrac1_tah.AutoSize = true;
+            hrac1_tah.BackColor = Color.Transparent;
+            tableLayoutPanel2.SetColumnSpan(hrac1_tah, 6);
+            hrac1_tah.Dock = DockStyle.Fill;
+            hrac1_tah.Font = new Font("Segoe UI Black", 25F, FontStyle.Bold);
+            hrac1_tah.ForeColor = Color.Red;
+            hrac1_tah.Location = new Point(10, 10);
+            hrac1_tah.Margin = new Padding(10, 10, 10, 10);
+            hrac1_tah.Name = "hrac1_tah";
+            hrac1_tah.Size = new Size(232, 34);
+            hrac1_tah.TabIndex = 8;
+            hrac1_tah.Text = "label1";
+            hrac1_tah.TextAlign = ContentAlignment.MiddleLeft;
+            hrac1_tah.Visible = false;
             // 
             // pole_27
             // 
@@ -289,7 +302,6 @@
             pole_27.Tag = "26";
             pole_27.Text = "27";
             pole_27.UseVisualStyleBackColor = true;
-            pole_27.Click += pole_27_Click;
             // 
             // pole_28
             // 
@@ -310,7 +322,6 @@
             pole_28.Tag = "27";
             pole_28.Text = "28";
             pole_28.UseVisualStyleBackColor = true;
-            pole_28.Click += pole_28_Click;
             // 
             // pole_21
             // 
@@ -331,7 +342,6 @@
             pole_21.Tag = "20";
             pole_21.Text = "21";
             pole_21.UseVisualStyleBackColor = true;
-            pole_21.Click += pole_21_Click;
             // 
             // pole_16
             // 
@@ -345,14 +355,13 @@
             pole_16.FlatAppearance.MouseOverBackColor = Color.Transparent;
             pole_16.FlatStyle = FlatStyle.Flat;
             pole_16.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
-            pole_16.Location = new Point(45, 273);
+            pole_16.Location = new Point(129, 273);
             pole_16.Name = "pole_16";
             pole_16.Size = new Size(78, 48);
             pole_16.TabIndex = 19;
             pole_16.Tag = "15";
             pole_16.Text = "16";
             pole_16.UseVisualStyleBackColor = true;
-            pole_16.Click += pole_16_Click;
             // 
             // pole_17
             // 
@@ -366,14 +375,13 @@
             pole_17.FlatAppearance.MouseOverBackColor = Color.Transparent;
             pole_17.FlatStyle = FlatStyle.Flat;
             pole_17.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
-            pole_17.Location = new Point(129, 273);
+            pole_17.Location = new Point(45, 273);
             pole_17.Name = "pole_17";
             pole_17.Size = new Size(78, 48);
             pole_17.TabIndex = 15;
             pole_17.Tag = "16";
             pole_17.Text = "17";
             pole_17.UseVisualStyleBackColor = true;
-            pole_17.Click += pole_17_Click;
             // 
             // pole_18
             // 
@@ -394,7 +402,6 @@
             pole_18.Tag = "17";
             pole_18.Text = "18";
             pole_18.UseVisualStyleBackColor = true;
-            pole_18.Click += pole_18_Click;
             // 
             // pole_20
             // 
@@ -415,7 +422,6 @@
             pole_20.Tag = "19";
             pole_20.Text = "20";
             pole_20.UseVisualStyleBackColor = true;
-            pole_20.Click += pole_20_Click;
             // 
             // pole_19
             // 
@@ -436,7 +442,6 @@
             pole_19.Tag = "18";
             pole_19.Text = "19";
             pole_19.UseVisualStyleBackColor = true;
-            pole_19.Click += pole_19_Click;
             // 
             // pole_11
             // 
@@ -457,7 +462,6 @@
             pole_11.Tag = "10";
             pole_11.Text = "11";
             pole_11.UseVisualStyleBackColor = true;
-            pole_11.Click += pole_11_Click;
             // 
             // pole_12
             // 
@@ -478,7 +482,6 @@
             pole_12.Tag = "11";
             pole_12.Text = "12";
             pole_12.UseVisualStyleBackColor = true;
-            pole_12.Click += pole_12_Click;
             // 
             // pole_13
             // 
@@ -499,7 +502,6 @@
             pole_13.Tag = "12";
             pole_13.Text = "13";
             pole_13.UseVisualStyleBackColor = true;
-            pole_13.Click += pole_13_Click;
             // 
             // pole_14
             // 
@@ -520,7 +522,6 @@
             pole_14.Tag = "13";
             pole_14.Text = "14";
             pole_14.UseVisualStyleBackColor = true;
-            pole_14.Click += pole_14_Click;
             // 
             // pole_15
             // 
@@ -541,7 +542,6 @@
             pole_15.Tag = "14";
             pole_15.Text = "15";
             pole_15.UseVisualStyleBackColor = true;
-            pole_15.Click += pole_15_Click;
             // 
             // pole_1
             // 
@@ -563,7 +563,6 @@
             pole_1.Tag = "0";
             pole_1.Text = "1";
             pole_1.UseVisualStyleBackColor = false;
-            pole_1.Click += pole_1_Click;
             // 
             // pole_2
             // 
@@ -584,7 +583,6 @@
             pole_2.Tag = "1";
             pole_2.Text = "2";
             pole_2.UseVisualStyleBackColor = true;
-            pole_2.Click += pole_2_Click;
             // 
             // pole_3
             // 
@@ -605,7 +603,6 @@
             pole_3.Tag = "2";
             pole_3.Text = "3";
             pole_3.UseVisualStyleBackColor = true;
-            pole_3.Click += pole_3_Click;
             // 
             // pole_4
             // 
@@ -626,7 +623,6 @@
             pole_4.Tag = "3";
             pole_4.Text = "4";
             pole_4.UseVisualStyleBackColor = true;
-            pole_4.Click += pole_4_Click;
             // 
             // pole_5
             // 
@@ -647,7 +643,6 @@
             pole_5.Tag = "4";
             pole_5.Text = "5";
             pole_5.UseVisualStyleBackColor = true;
-            pole_5.Click += pole_5_Click;
             // 
             // pole_6
             // 
@@ -668,7 +663,6 @@
             pole_6.Tag = "5";
             pole_6.Text = "6";
             pole_6.UseVisualStyleBackColor = true;
-            pole_6.Click += pole_6_Click;
             // 
             // pole_7
             // 
@@ -689,7 +683,6 @@
             pole_7.Tag = "6";
             pole_7.Text = "7";
             pole_7.UseVisualStyleBackColor = true;
-            pole_7.Click += pole_7_Click;
             // 
             // pole_8
             // 
@@ -710,7 +703,6 @@
             pole_8.Tag = "7";
             pole_8.Text = "8";
             pole_8.UseVisualStyleBackColor = true;
-            pole_8.Click += pole_8_Click;
             // 
             // pole_9
             // 
@@ -731,7 +723,6 @@
             pole_9.Tag = "8";
             pole_9.Text = "9";
             pole_9.UseVisualStyleBackColor = true;
-            pole_9.Click += pole_9_Click;
             // 
             // pole_10
             // 
@@ -752,7 +743,6 @@
             pole_10.Tag = "9";
             pole_10.Text = "10";
             pole_10.UseVisualStyleBackColor = true;
-            pole_10.Click += pole_10_Click;
             // 
             // pole_25
             // 
@@ -773,7 +763,23 @@
             pole_25.Tag = "24";
             pole_25.Text = "25";
             pole_25.UseVisualStyleBackColor = true;
-            pole_25.Click += pole_25_Click;
+            // 
+            // hrac2_tah
+            // 
+            hrac2_tah.AutoSize = true;
+            hrac2_tah.BackColor = Color.Transparent;
+            tableLayoutPanel2.SetColumnSpan(hrac2_tah, 6);
+            hrac2_tah.Dock = DockStyle.Fill;
+            hrac2_tah.Font = new Font("Segoe UI Black", 25F, FontStyle.Bold);
+            hrac2_tah.ForeColor = Color.Red;
+            hrac2_tah.Location = new Point(346, 10);
+            hrac2_tah.Margin = new Padding(10, 10, 10, 10);
+            hrac2_tah.Name = "hrac2_tah";
+            hrac2_tah.Size = new Size(240, 34);
+            hrac2_tah.TabIndex = 9;
+            hrac2_tah.Text = "label2";
+            hrac2_tah.TextAlign = ContentAlignment.MiddleRight;
+            hrac2_tah.Visible = false;
             // 
             // odejit_btn
             // 
@@ -788,36 +794,6 @@
             odejit_btn.Text = "ODEJÍT";
             odejit_btn.UseVisualStyleBackColor = false;
             odejit_btn.Click += odejit_btn_Click_1;
-            // 
-            // hrac1_tah
-            // 
-            hrac1_tah.Anchor = AnchorStyles.Top;
-            hrac1_tah.AutoSize = true;
-            hrac1_tah.BackColor = Color.Transparent;
-            hrac1_tah.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic);
-            hrac1_tah.ForeColor = Color.White;
-            hrac1_tah.Location = new Point(21, 58);
-            hrac1_tah.Margin = new Padding(10);
-            hrac1_tah.Name = "hrac1_tah";
-            hrac1_tah.Size = new Size(53, 21);
-            hrac1_tah.TabIndex = 8;
-            hrac1_tah.Text = "label1";
-            hrac1_tah.Visible = false;
-            // 
-            // hrac2_tah
-            // 
-            hrac2_tah.Anchor = AnchorStyles.Top;
-            hrac2_tah.AutoSize = true;
-            hrac2_tah.BackColor = Color.Transparent;
-            hrac2_tah.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic);
-            hrac2_tah.ForeColor = Color.White;
-            hrac2_tah.Location = new Point(718, 58);
-            hrac2_tah.Margin = new Padding(10);
-            hrac2_tah.Name = "hrac2_tah";
-            hrac2_tah.Size = new Size(54, 21);
-            hrac2_tah.TabIndex = 9;
-            hrac2_tah.Text = "label2";
-            hrac2_tah.Visible = false;
             // 
             // play_form
             // 
@@ -836,6 +812,7 @@
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel1.PerformLayout();
             tableLayoutPanel2.ResumeLayout(false);
+            tableLayoutPanel2.PerformLayout();
             ResumeLayout(false);
         }
 
