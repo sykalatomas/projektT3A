@@ -10,28 +10,38 @@ using System.Windows.Forms;
 
 namespace main
 {
-    public partial class QuestionForm : Form
+    public partial class QuestionFormYesNo : Form
     {
         private string spravnaOdpoved;
         public bool jeSpravne { get; private set; }
 
-        public QuestionForm(string textOtazky, string odpoved)
+        public QuestionFormYesNo(string textNahradniOtazky, string odpoved)
         {
             InitializeComponent();
-            otazka.Text = textOtazky;
+            otazka.Text = textNahradniOtazky;
             spravnaOdpoved = odpoved;
             jeSpravne = false;
         }
 
-
-        private void QuestionForm_Load(object sender, EventArgs e)
+        private void ano_Click(object sender, EventArgs e)
         {
-            odpoved.Focus();
+            if (spravnaOdpoved.ToLower() == "ano")
+            {
+                jeSpravne = true;
+                MessageBox.Show("Správně!", "Výsledek", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                jeSpravne = false;
+                MessageBox.Show("Špatně! Správná odpověď je: " + spravnaOdpoved, "Výsledek", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            this.DialogResult = DialogResult.OK;
+            this.Close();
         }
 
-        private void odeslat_Click(object sender, EventArgs e)
+        private void ne_Click(object sender, EventArgs e)
         {
-            if (odpoved.Text.Trim().ToLower() == spravnaOdpoved.ToLower())
+            if (spravnaOdpoved.ToLower() == "ne")
             {
                 jeSpravne = true;
                 MessageBox.Show("Správně!", "Výsledek", MessageBoxButtons.OK, MessageBoxIcon.Information);

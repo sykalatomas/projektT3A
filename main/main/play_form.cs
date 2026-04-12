@@ -11,8 +11,12 @@ using System.IO;
 
 namespace main
 {
+
     public partial class play_form : Form
     {
+
+        List<int> cernaPole = new List<int>();
+        int aktualniIndexNahradni = 0;
         public class Otazka
         {
             public string Text { get; set; }
@@ -25,7 +29,20 @@ namespace main
             }
         }
 
+        public class nahradniOtazka
+        {
+            public string nahradniText { get; set; }
+            public string nahradniOdpoved { get; set; }
+
+            public nahradniOtazka(string nahrText, string nahrOdpoved)
+            {
+                nahradniText = nahrText;
+                nahradniOdpoved = nahrOdpoved;
+            }
+        }
+
         List<Otazka> seznamOtazek = new List<Otazka>();
+        List<nahradniOtazka> seznamNahradnichOtazek = new List<nahradniOtazka>();
 
         private void NaplnOtazek()
         {
@@ -63,11 +80,46 @@ namespace main
             }
         }
 
+        private void NaplnNahradnichOtazek()
+        {
+            string cestaKSouboru = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "nahradni_otazky.txt");
+            try
+            {
+                string[] radky = File.ReadAllLines(cestaKSouboru);
+                foreach (string radek in radky)
+                {
+                    string[] casti = radek.Split(';');
+                    if (casti.Length == 2)
+                    {
+                        string textOtazky = casti[0];
+                        string odpoved = casti[1];
+                        seznamNahradnichOtazek.Add(new nahradniOtazka(textOtazky, odpoved));
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Chyba při načítání náhradních otázek: " + ex.Message);
+            }
+
+            Random rnd = new Random();
+            int n = seznamNahradnichOtazek.Count;
+            while (n > 1)
+            {
+                n--;
+                int k = rnd.Next(n + 1);
+                nahradniOtazka value = seznamNahradnichOtazek[k];
+                seznamNahradnichOtazek[k] = seznamNahradnichOtazek[n];
+                seznamNahradnichOtazek[n] = value;
+            }
+        }
+
 
         public play_form()
         {
             InitializeComponent();
             NaplnOtazek();
+            NaplnNahradnichOtazek();
         }
 
         private void play_form_Load(object sender, EventArgs e)
@@ -75,14 +127,13 @@ namespace main
             hrac1.Text = HraData.JmenoHrac1;
             hrac2.Text = HraData.JmenoHrac2;
             play_form.ActiveForm.Text = "Hra - " + HraData.JmenoHrac1 + " vs " + HraData.JmenoHrac2;
+            
 
             
             foreach (Control c in tableLayoutPanel2.Controls)
             {
-                // Pokud je ten prvek tlačítko, přiřadíme mu akci
                 if (c is Button tlacitko)
                 {
-                    // Všechna tlačítka teď při kliknutí spustí stejnou metodu
                     tlacitko.Click += pole_1_Click;
                 }
             }
@@ -106,8 +157,7 @@ namespace main
 
         private void odejit_btn_Click_1(object sender, EventArgs e)
         {
-            DialogResult result;
-            result = MessageBox.Show("Opravdu si přejete ukončit rozehranou hru bez uložení?", "Pozor!", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            DialogResult result = MessageBox.Show("Opravdu si přejete ukončit rozehranou hru bez uložení?", "Pozor!", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (result == DialogResult.Yes)
             {
                 this.Close();
@@ -121,37 +171,56 @@ namespace main
         {
             Button pole_vybrano = (Button)sender;
             int indexOtazky = Convert.ToInt32(pole_vybrano.Tag);
-            Otazka vybranaOtazka = seznamOtazek[indexOtazky];
-            // Vytvoříme instanci našeho nového okna a předáme mu data
-            using (QuestionForm okno = new QuestionForm(vybranaOtazka.Text, vybranaOtazka.Odpoved))
+            bool jeNahradniOtazka = (cernaPole.Contains(indexOtazky));
+            if (jeNahradniOtazka)
             {
-                if (okno.ShowDialog() == DialogResult.OK)
+                if (aktualniIndexNahradni < seznamNahradnichOtazek.Count)
                 {
-                    if (okno.jeSpravne)
+                    nahradniOtazka nahr = seznamNahradnichOtazek[aktualniIndexNahradni];
+
+                    using (QuestionFormYesNo okno = new QuestionFormYesNo(nahr.nahradniText, nahr.nahradniOdpoved))
                     {
-                        if (HraData.hracNaRade == 1)
+                        if (okno.ShowDialog() == DialogResult.OK)
                         {
-                            pole_vybrano.BackgroundImage = Properties.Resources.sestiuhelnik_aqua;
+                            if (okno.jeSpravne)
+                            {
+                                pole_vybrano.BackgroundImage = (HraData.hracNaRade == 1) ?
+                                    Properties.Resources.sestiuhelnik_aqua : Properties.Resources.sestiuhelnik_zlata;
+                                pole_vybrano.ForeColor = Color.Black;
+                                pole_vybrano.Enabled = false;
+                            }
+                            aktualniIndexNahradni++;
+                            HraData.hracNaRade = (HraData.hracNaRade == 1) ? 2 : 1;
+                        }
+                    }
+                }
+            }
+            else
+            {
+                Otazka vybranaOtazka = seznamOtazek[indexOtazky];
+                using (QuestionForm okno = new QuestionForm(vybranaOtazka.Text, vybranaOtazka.Odpoved))
+                {
+                    if (okno.ShowDialog() == DialogResult.OK)
+                    {
+                        if (okno.jeSpravne)
+                        {
+                            pole_vybrano.BackgroundImage = (HraData.hracNaRade == 1) ?
+                                Properties.Resources.sestiuhelnik_aqua : Properties.Resources.sestiuhelnik_zlata;
                             pole_vybrano.ForeColor = Color.Black;
                             pole_vybrano.Enabled = false;
                         }
                         else
                         {
-                            pole_vybrano.BackgroundImage = Properties.Resources.sestiuhelnik_zlata;
-                            pole_vybrano.ForeColor = Color.Black;
-                            pole_vybrano.Enabled = false;
-                        }
-                    }
-                    else
-                    {
-                        pole_vybrano.ForeColor = Color.White;
-                        pole_vybrano.BackgroundImage = Properties.Resources.sestiuhelnik_cerny;
-                    }
+                            pole_vybrano.ForeColor = Color.White;
+                            pole_vybrano.BackgroundImage = Properties.Resources.sestiuhelnik_cerny;
+                            cernaPole.Add(indexOtazky);
 
-                    // Přepneme hráče na řadě (pokud je to hra pro dva)
-                    HraData.hracNaRade = (HraData.hracNaRade == 1) ? 2 : 1;
+                        }
+                        HraData.hracNaRade = (HraData.hracNaRade == 1) ? 2 : 1;
+                    }
                 }
             }
+                
             if (HraData.hracNaRade == 1)
             {
                 hrac1_tah.Visible = true;

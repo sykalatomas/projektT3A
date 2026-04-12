@@ -30,8 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(play_form));
             tableLayoutPanel1 = new TableLayoutPanel();
-            hrac1 = new Label();
-            hrac2 = new Label();
             tableLayoutPanel2 = new TableLayoutPanel();
             pole_22 = new Button();
             pole_23 = new Button();
@@ -64,6 +62,8 @@
             pole_25 = new Button();
             hrac2_tah = new Label();
             odejit_btn = new Button();
+            hrac1 = new Button();
+            hrac2 = new Button();
             tableLayoutPanel1.SuspendLayout();
             tableLayoutPanel2.SuspendLayout();
             SuspendLayout();
@@ -76,10 +76,10 @@
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 12.0754709F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 75.84906F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 12.0754709F));
-            tableLayoutPanel1.Controls.Add(hrac1, 0, 0);
-            tableLayoutPanel1.Controls.Add(hrac2, 2, 0);
             tableLayoutPanel1.Controls.Add(tableLayoutPanel2, 1, 0);
             tableLayoutPanel1.Controls.Add(odejit_btn, 0, 2);
+            tableLayoutPanel1.Controls.Add(hrac1, 0, 0);
+            tableLayoutPanel1.Controls.Add(hrac2, 2, 0);
             tableLayoutPanel1.Dock = DockStyle.Fill;
             tableLayoutPanel1.Location = new Point(0, 0);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -89,36 +89,6 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
             tableLayoutPanel1.Size = new Size(794, 433);
             tableLayoutPanel1.TabIndex = 0;
-            // 
-            // hrac1
-            // 
-            hrac1.AutoSize = true;
-            hrac1.BackColor = Color.Transparent;
-            hrac1.Dock = DockStyle.Fill;
-            hrac1.FlatStyle = FlatStyle.Flat;
-            hrac1.Font = new Font("Segoe UI", 16F);
-            hrac1.Image = Properties.Resources.hrac_1;
-            hrac1.Location = new Point(3, 0);
-            hrac1.Name = "hrac1";
-            hrac1.Size = new Size(89, 48);
-            hrac1.TabIndex = 6;
-            hrac1.Text = "Hráč č. 1";
-            hrac1.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // hrac2
-            // 
-            hrac2.AutoSize = true;
-            hrac2.BackColor = Color.Transparent;
-            hrac2.Dock = DockStyle.Fill;
-            hrac2.FlatStyle = FlatStyle.Flat;
-            hrac2.Font = new Font("Segoe UI", 16F);
-            hrac2.Image = Properties.Resources.hrac_2;
-            hrac2.Location = new Point(700, 0);
-            hrac2.Name = "hrac2";
-            hrac2.Size = new Size(91, 48);
-            hrac2.TabIndex = 7;
-            hrac2.Text = "Hráč č. 2";
-            hrac2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // tableLayoutPanel2
             // 
@@ -275,7 +245,7 @@
             hrac1_tah.Font = new Font("Segoe UI Black", 25F, FontStyle.Bold);
             hrac1_tah.ForeColor = Color.Red;
             hrac1_tah.Location = new Point(10, 10);
-            hrac1_tah.Margin = new Padding(10, 10, 10, 10);
+            hrac1_tah.Margin = new Padding(10);
             hrac1_tah.Name = "hrac1_tah";
             hrac1_tah.Size = new Size(232, 34);
             hrac1_tah.TabIndex = 8;
@@ -773,7 +743,7 @@
             hrac2_tah.Font = new Font("Segoe UI Black", 25F, FontStyle.Bold);
             hrac2_tah.ForeColor = Color.Red;
             hrac2_tah.Location = new Point(346, 10);
-            hrac2_tah.Margin = new Padding(10, 10, 10, 10);
+            hrac2_tah.Margin = new Padding(10);
             hrac2_tah.Name = "hrac2_tah";
             hrac2_tah.Size = new Size(240, 34);
             hrac2_tah.TabIndex = 9;
@@ -794,6 +764,42 @@
             odejit_btn.Text = "ODEJÍT";
             odejit_btn.UseVisualStyleBackColor = false;
             odejit_btn.Click += odejit_btn_Click_1;
+            // 
+            // hrac1
+            // 
+            hrac1.AutoSize = true;
+            hrac1.BackColor = Color.Transparent;
+            hrac1.BackgroundImage = Properties.Resources.hrac_1;
+            hrac1.BackgroundImageLayout = ImageLayout.Stretch;
+            hrac1.Dock = DockStyle.Fill;
+            hrac1.Enabled = false;
+            hrac1.FlatAppearance.BorderSize = 0;
+            hrac1.FlatStyle = FlatStyle.Flat;
+            hrac1.Font = new Font("Segoe UI", 15F);
+            hrac1.Location = new Point(3, 3);
+            hrac1.Name = "hrac1";
+            hrac1.Size = new Size(89, 42);
+            hrac1.TabIndex = 8;
+            hrac1.Text = "Hráč č.1";
+            hrac1.UseVisualStyleBackColor = false;
+            // 
+            // hrac2
+            // 
+            hrac2.AutoSize = true;
+            hrac2.BackColor = Color.Transparent;
+            hrac2.BackgroundImage = Properties.Resources.hrac_2;
+            hrac2.BackgroundImageLayout = ImageLayout.Stretch;
+            hrac2.Dock = DockStyle.Fill;
+            hrac2.Enabled = false;
+            hrac2.FlatAppearance.BorderSize = 0;
+            hrac2.FlatStyle = FlatStyle.Flat;
+            hrac2.Font = new Font("Segoe UI", 15F);
+            hrac2.Location = new Point(700, 3);
+            hrac2.Name = "hrac2";
+            hrac2.Size = new Size(91, 42);
+            hrac2.TabIndex = 9;
+            hrac2.Text = "Hráč č.2";
+            hrac2.UseVisualStyleBackColor = false;
             // 
             // play_form
             // 
@@ -849,9 +855,9 @@
         private Button pole_28;
         private Button pole_21;
         private Button pole_25;
-        private Label hrac1;
-        private Label hrac2;
         private Label hrac1_tah;
         private Label hrac2_tah;
+        private Button hrac1;
+        private Button hrac2;
     }
 }
