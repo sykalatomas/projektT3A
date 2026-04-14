@@ -39,8 +39,8 @@
             pole_27 = new Button();
             pole_28 = new Button();
             pole_21 = new Button();
-            pole_16 = new Button();
             pole_17 = new Button();
+            pole_16 = new Button();
             pole_18 = new Button();
             pole_20 = new Button();
             pole_19 = new Button();
@@ -70,7 +70,7 @@
             // 
             // tableLayoutPanel1
             // 
-            tableLayoutPanel1.BackgroundImage = Properties.Resources.az_kviz_pozadi2;
+            tableLayoutPanel1.BackgroundImage = Properties.Resources.az_kviz_pozadi2_1;
             tableLayoutPanel1.BackgroundImageLayout = ImageLayout.Stretch;
             tableLayoutPanel1.ColumnCount = 3;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 12.0754709F));
@@ -116,8 +116,8 @@
             tableLayoutPanel2.Controls.Add(pole_27, 10, 6);
             tableLayoutPanel2.Controls.Add(pole_28, 12, 6);
             tableLayoutPanel2.Controls.Add(pole_21, 11, 5);
-            tableLayoutPanel2.Controls.Add(pole_16, 1, 5);
             tableLayoutPanel2.Controls.Add(pole_17, 1, 5);
+            tableLayoutPanel2.Controls.Add(pole_16, 1, 5);
             tableLayoutPanel2.Controls.Add(pole_18, 1, 5);
             tableLayoutPanel2.Controls.Add(pole_20, 9, 5);
             tableLayoutPanel2.Controls.Add(pole_19, 1, 5);
@@ -313,26 +313,6 @@
             pole_21.Text = "21";
             pole_21.UseVisualStyleBackColor = true;
             // 
-            // pole_16
-            // 
-            pole_16.BackgroundImage = Properties.Resources.sestiuhelnik;
-            pole_16.BackgroundImageLayout = ImageLayout.Stretch;
-            tableLayoutPanel2.SetColumnSpan(pole_16, 2);
-            pole_16.Cursor = Cursors.Hand;
-            pole_16.Dock = DockStyle.Fill;
-            pole_16.FlatAppearance.BorderSize = 0;
-            pole_16.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            pole_16.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            pole_16.FlatStyle = FlatStyle.Flat;
-            pole_16.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
-            pole_16.Location = new Point(129, 273);
-            pole_16.Name = "pole_16";
-            pole_16.Size = new Size(78, 48);
-            pole_16.TabIndex = 19;
-            pole_16.Tag = "15";
-            pole_16.Text = "16";
-            pole_16.UseVisualStyleBackColor = true;
-            // 
             // pole_17
             // 
             pole_17.BackgroundImage = Properties.Resources.sestiuhelnik;
@@ -345,13 +325,33 @@
             pole_17.FlatAppearance.MouseOverBackColor = Color.Transparent;
             pole_17.FlatStyle = FlatStyle.Flat;
             pole_17.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
-            pole_17.Location = new Point(45, 273);
+            pole_17.Location = new Point(129, 273);
             pole_17.Name = "pole_17";
             pole_17.Size = new Size(78, 48);
-            pole_17.TabIndex = 15;
+            pole_17.TabIndex = 19;
             pole_17.Tag = "16";
             pole_17.Text = "17";
             pole_17.UseVisualStyleBackColor = true;
+            // 
+            // pole_16
+            // 
+            pole_16.BackgroundImage = Properties.Resources.sestiuhelnik;
+            pole_16.BackgroundImageLayout = ImageLayout.Stretch;
+            tableLayoutPanel2.SetColumnSpan(pole_16, 2);
+            pole_16.Cursor = Cursors.Hand;
+            pole_16.Dock = DockStyle.Fill;
+            pole_16.FlatAppearance.BorderSize = 0;
+            pole_16.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            pole_16.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            pole_16.FlatStyle = FlatStyle.Flat;
+            pole_16.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
+            pole_16.Location = new Point(45, 273);
+            pole_16.Name = "pole_16";
+            pole_16.Size = new Size(78, 48);
+            pole_16.TabIndex = 15;
+            pole_16.Tag = "15";
+            pole_16.Text = "16";
+            pole_16.UseVisualStyleBackColor = true;
             // 
             // pole_18
             // 
@@ -812,7 +812,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
-            BackgroundImage = Properties.Resources.az_kviz_pozadi2;
+            BackgroundImage = Properties.Resources.az_kviz_pozadi2_1;
             BackgroundImageLayout = ImageLayout.Zoom;
             ClientSize = new Size(794, 433);
             Controls.Add(tableLayoutPanel1);
@@ -843,8 +843,8 @@
         private Button pole_8;
         private Button pole_9;
         private Button pole_10;
-        private Button pole_16;
         private Button pole_17;
+        private Button pole_16;
         private Button pole_18;
         private Button pole_20;
         private Button pole_19;
