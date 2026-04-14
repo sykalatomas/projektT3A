@@ -116,11 +116,11 @@
             tableLayoutPanel2.Controls.Add(pole_27, 10, 6);
             tableLayoutPanel2.Controls.Add(pole_28, 12, 6);
             tableLayoutPanel2.Controls.Add(pole_21, 11, 5);
-            tableLayoutPanel2.Controls.Add(pole_17, 1, 5);
+            tableLayoutPanel2.Controls.Add(pole_17, 3, 5);
             tableLayoutPanel2.Controls.Add(pole_16, 1, 5);
-            tableLayoutPanel2.Controls.Add(pole_18, 1, 5);
+            tableLayoutPanel2.Controls.Add(pole_18, 5, 5);
             tableLayoutPanel2.Controls.Add(pole_20, 9, 5);
-            tableLayoutPanel2.Controls.Add(pole_19, 1, 5);
+            tableLayoutPanel2.Controls.Add(pole_19, 7, 5);
             tableLayoutPanel2.Controls.Add(pole_11, 2, 4);
             tableLayoutPanel2.Controls.Add(pole_12, 4, 4);
             tableLayoutPanel2.Controls.Add(pole_13, 6, 4);

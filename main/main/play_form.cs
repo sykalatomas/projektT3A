@@ -200,6 +200,7 @@ namespace main
 
         public play_form()
         {
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             InitializeComponent();
             NaplnOtazek();
             NaplnNahradnichOtazek();
