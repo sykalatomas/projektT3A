@@ -70,7 +70,7 @@
             // 
             // tableLayoutPanel1
             // 
-            tableLayoutPanel1.BackgroundImage = Properties.Resources.az_kviz_pozadi;
+            tableLayoutPanel1.BackgroundImage = Properties.Resources.az_kviz_pozadi2;
             tableLayoutPanel1.BackgroundImageLayout = ImageLayout.Stretch;
             tableLayoutPanel1.ColumnCount = 3;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 12.0754709F));
@@ -772,10 +772,13 @@
             hrac1.BackgroundImage = Properties.Resources.hrac_1;
             hrac1.BackgroundImageLayout = ImageLayout.Stretch;
             hrac1.Dock = DockStyle.Fill;
-            hrac1.Enabled = false;
             hrac1.FlatAppearance.BorderSize = 0;
+            hrac1.FlatAppearance.CheckedBackColor = Color.Transparent;
+            hrac1.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            hrac1.FlatAppearance.MouseOverBackColor = Color.Transparent;
             hrac1.FlatStyle = FlatStyle.Flat;
-            hrac1.Font = new Font("Segoe UI", 15F);
+            hrac1.Font = new Font("Segoe UI", 18F);
+            hrac1.ForeColor = Color.Black;
             hrac1.Location = new Point(3, 3);
             hrac1.Name = "hrac1";
             hrac1.Size = new Size(89, 42);
@@ -790,10 +793,13 @@
             hrac2.BackgroundImage = Properties.Resources.hrac_2;
             hrac2.BackgroundImageLayout = ImageLayout.Stretch;
             hrac2.Dock = DockStyle.Fill;
-            hrac2.Enabled = false;
             hrac2.FlatAppearance.BorderSize = 0;
+            hrac2.FlatAppearance.CheckedBackColor = Color.Transparent;
+            hrac2.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            hrac2.FlatAppearance.MouseOverBackColor = Color.Transparent;
             hrac2.FlatStyle = FlatStyle.Flat;
-            hrac2.Font = new Font("Segoe UI", 15F);
+            hrac2.Font = new Font("Segoe UI", 18F);
+            hrac2.ForeColor = Color.Black;
             hrac2.Location = new Point(700, 3);
             hrac2.Name = "hrac2";
             hrac2.Size = new Size(91, 42);
@@ -806,7 +812,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
-            BackgroundImage = Properties.Resources.az_kviz_pozadi;
+            BackgroundImage = Properties.Resources.az_kviz_pozadi2;
             BackgroundImageLayout = ImageLayout.Zoom;
             ClientSize = new Size(794, 433);
             Controls.Add(tableLayoutPanel1);

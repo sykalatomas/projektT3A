@@ -9,8 +9,7 @@ namespace main
 
         private void odejit_btn_Click(object sender, EventArgs e)
         {
-            DialogResult result;
-            result=MessageBox.Show("Chystáte se ukonèit aplikaci. Opravdu chcete pokraèovat?","Upozornìní!",MessageBoxButtons.YesNo,MessageBoxIcon.Information);
+            DialogResult result=MessageBox.Show("Chystáte se ukonèit aplikaci. Opravdu chcete pokraèovat?","Upozornìní!",MessageBoxButtons.YesNo,MessageBoxIcon.Warning);
             if (result == DialogResult.Yes)
             {
                 Application.Exit();

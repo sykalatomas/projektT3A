@@ -1,53 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\main\\",
+  "WorkspaceRootPath": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|c:\\users\\tomas\\source\\repos\\sykalatomas\\projektt3a\\main\\main\\play_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|solutionrelative:main\\play_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|c:\\users\\tomas\\source\\repos\\sykalatomas\\projektt3a\\main\\main\\questionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|solutionrelative:main\\questionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|c:\\users\\tomas\\source\\repos\\sykalatomas\\projektt3a\\main\\main\\questionformyesno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|solutionrelative:main\\questionformyesno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|c:\\users\\tomas\\source\\repos\\sykalatomas\\projektt3a\\main\\main\\questionformyesno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|solutionrelative:main\\questionformyesno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|c:\\users\\tomas\\source\\repos\\sykalatomas\\projektt3a\\main\\main\\hradata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|solutionrelative:main\\hradata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\questionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|solutionrelative:main\\questionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|c:\\users\\tomas\\source\\repos\\sykalatomas\\projektt3a\\main\\main\\play_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\play_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|solutionrelative:main\\play_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|c:\\users\\tomas\\source\\repos\\sykalatomas\\projektt3a\\main\\main\\settings_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|d:\\users\\sykalatom\u00E1\u0161\\source\\repos\\sykalatomas\\projektt3a\\main\\main\\play_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|solutionrelative:main\\play_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|d:\\users\\sykalatom\u00E1\u0161\\source\\repos\\sykalatomas\\projektt3a\\main\\main\\questionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|solutionrelative:main\\questionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|d:\\users\\sykalatom\u00E1\u0161\\source\\repos\\sykalatomas\\projektt3a\\main\\main\\hradata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|solutionrelative:main\\hradata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|d:\\users\\sykalatom\u00E1\u0161\\source\\repos\\sykalatomas\\projektt3a\\main\\main\\settings_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|solutionrelative:main\\settings_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\menu_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|solutionrelative:main\\menu_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|c:\\users\\tomas\\source\\repos\\sykalatomas\\projektt3a\\main\\main\\menu_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|d:\\users\\sykalatom\u00E1\u0161\\source\\repos\\sykalatomas\\projektt3a\\main\\main\\menu_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|solutionrelative:main\\menu_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|c:\\users\\tomas\\source\\repos\\sykalatomas\\projektt3a\\main\\main\\play_form.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|d:\\users\\sykalatom\u00E1\u0161\\source\\repos\\sykalatomas\\projektt3a\\main\\main\\questionformyesno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|solutionrelative:main\\questionformyesno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\menu_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|solutionrelative:main\\menu_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|d:\\users\\sykalatom\u00E1\u0161\\source\\repos\\sykalatomas\\projektt3a\\main\\main\\play_form.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|solutionrelative:main\\play_form.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\about_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\about_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{735A0822-EBA5-4646-9485-4E78E7BB0999}|main\\main.csproj|solutionrelative:main\\about_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -58,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,74 +66,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "QuestionFormYesNo.cs",
-              "DocumentMoniker": "C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\QuestionFormYesNo.cs",
-              "RelativeDocumentMoniker": "main\\QuestionFormYesNo.cs",
-              "ToolTip": "C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\QuestionFormYesNo.cs",
-              "RelativeToolTip": "main\\QuestionFormYesNo.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAawDYAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T15:46:53.483Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "QuestionForm.cs",
-              "DocumentMoniker": "C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\QuestionForm.cs",
-              "RelativeDocumentMoniker": "main\\QuestionForm.cs",
-              "ToolTip": "C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\QuestionForm.cs",
-              "RelativeToolTip": "main\\QuestionForm.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowCUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T19:07:02.561Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "play_form.cs",
-              "DocumentMoniker": "C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\play_form.cs",
-              "RelativeDocumentMoniker": "main\\play_form.cs",
-              "ToolTip": "C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\play_form.cs*",
-              "RelativeToolTip": "main\\play_form.cs*",
-              "ViewState": "AgIAAP0AAAAAAAAAAAAQwP0AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T18:58:24.305Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "QuestionFormYesNo.cs [N\u00E1vrh]",
-              "DocumentMoniker": "C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\QuestionFormYesNo.cs",
-              "RelativeDocumentMoniker": "main\\QuestionFormYesNo.cs",
-              "ToolTip": "C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\QuestionFormYesNo.cs [N\u00E1vrh]",
-              "RelativeToolTip": "main\\QuestionFormYesNo.cs [N\u00E1vrh]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T15:38:23.212Z",
-              "EditorCaption": " [N\u00E1vrh]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "QuestionForm.cs [N\u00E1vrh]",
-              "DocumentMoniker": "C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\QuestionForm.cs",
-              "RelativeDocumentMoniker": "main\\QuestionForm.cs",
-              "ToolTip": "C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\QuestionForm.cs [N\u00E1vrh]",
-              "RelativeToolTip": "main\\QuestionForm.cs [N\u00E1vrh]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T18:55:01.01Z",
-              "EditorCaption": " [N\u00E1vrh]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "HraData.cs",
-              "DocumentMoniker": "C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\HraData.cs",
+              "DocumentMoniker": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\HraData.cs",
               "RelativeDocumentMoniker": "main\\HraData.cs",
-              "ToolTip": "C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\HraData.cs",
+              "ToolTip": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\HraData.cs",
               "RelativeToolTip": "main\\HraData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -150,23 +79,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "play_form.cs [N\u00E1vrh]",
-              "DocumentMoniker": "C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\play_form.cs",
+              "DocumentIndex": 2,
+              "Title": "QuestionForm.cs",
+              "DocumentMoniker": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\QuestionForm.cs",
+              "RelativeDocumentMoniker": "main\\QuestionForm.cs",
+              "ToolTip": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\QuestionForm.cs",
+              "RelativeToolTip": "main\\QuestionForm.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T19:07:02.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "play_form.cs",
+              "DocumentMoniker": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\play_form.cs",
               "RelativeDocumentMoniker": "main\\play_form.cs",
-              "ToolTip": "C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\play_form.cs [N\u00E1vrh]*",
-              "RelativeToolTip": "main\\play_form.cs [N\u00E1vrh]*",
+              "ToolTip": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\play_form.cs",
+              "RelativeToolTip": "main\\play_form.cs",
+              "ViewState": "AgIAAL8AAAAAAAAAAADwv/QAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T18:58:24.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "play_form.cs [N\u00E1vrh]",
+              "DocumentMoniker": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\play_form.cs",
+              "RelativeDocumentMoniker": "main\\play_form.cs",
+              "ToolTip": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\play_form.cs [N\u00E1vrh]",
+              "RelativeToolTip": "main\\play_form.cs [N\u00E1vrh]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-10T20:04:29.409Z",
               "EditorCaption": " [N\u00E1vrh]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "settings_form.cs",
-              "DocumentMoniker": "C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\settings_form.cs",
+              "DocumentMoniker": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\settings_form.cs",
               "RelativeDocumentMoniker": "main\\settings_form.cs",
-              "ToolTip": "C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\settings_form.cs",
+              "ToolTip": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\settings_form.cs",
               "RelativeToolTip": "main\\settings_form.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAowE4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -175,22 +130,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "menu_form.cs [N\u00E1vrh]",
-              "DocumentMoniker": "C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\menu_form.cs",
+              "DocumentMoniker": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\menu_form.cs",
               "RelativeDocumentMoniker": "main\\menu_form.cs",
-              "ToolTip": "C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\menu_form.cs [N\u00E1vrh]",
+              "ToolTip": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\menu_form.cs [N\u00E1vrh]",
               "RelativeToolTip": "main\\menu_form.cs [N\u00E1vrh]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T19:29:58.289Z"
+              "WhenOpened": "2026-04-11T19:29:58.289Z",
+              "EditorCaption": " [N\u00E1vrh]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
+              "Title": "menu_form.cs",
+              "DocumentMoniker": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\menu_form.cs",
+              "RelativeDocumentMoniker": "main\\menu_form.cs",
+              "ToolTip": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\menu_form.cs",
+              "RelativeToolTip": "main\\menu_form.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T08:23:53.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QuestionFormYesNo.cs",
+              "DocumentMoniker": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\QuestionFormYesNo.cs",
+              "RelativeDocumentMoniker": "main\\QuestionFormYesNo.cs",
+              "ToolTip": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\QuestionFormYesNo.cs",
+              "RelativeToolTip": "main\\QuestionFormYesNo.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAawDYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T15:46:53.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "play_form.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\play_form.Designer.cs",
+              "DocumentMoniker": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\play_form.Designer.cs",
               "RelativeDocumentMoniker": "main\\play_form.Designer.cs",
-              "ToolTip": "C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\play_form.Designer.cs",
+              "ToolTip": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\play_form.Designer.cs",
               "RelativeToolTip": "main\\play_form.Designer.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAawBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -200,22 +182,11 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "menu_form.cs",
-              "DocumentMoniker": "C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\menu_form.cs",
-              "RelativeDocumentMoniker": "main\\menu_form.cs",
-              "ToolTip": "C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\menu_form.cs",
-              "RelativeToolTip": "main\\menu_form.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T08:23:53.582Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "about_form.cs [N\u00E1vrh]",
-              "DocumentMoniker": "C:\\Users\\tomas\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\about_form.cs",
+              "DocumentMoniker": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\about_form.cs",
               "RelativeDocumentMoniker": "main\\about_form.cs",
               "ToolTip": "D:\\Users\\SykalaTom\u00E1\u0161\\source\\repos\\sykalatomas\\projektT3A\\main\\main\\about_form.cs [N\u00E1vrh]",
+              "RelativeToolTip": "main\\about_form.cs [N\u00E1vrh]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-06T18:30:57.804Z"
             }

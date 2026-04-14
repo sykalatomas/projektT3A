@@ -45,3 +45,6 @@ C:\Users\tomas\source\repos\sykalatomas\projektT3A\main\main\obj\Debug\net8.0-wi
 C:\Users\tomas\source\repos\sykalatomas\projektT3A\main\main\obj\Debug\net8.0-windows\ref\main.dll
 C:\Users\tomas\source\repos\sykalatomas\projektT3A\main\main\obj\Debug\net8.0-windows\main.play_form.resources
 C:\Users\tomas\source\repos\sykalatomas\projektT3A\main\main\bin\Debug\net8.0-windows\nahradni_otazky.txt
+D:\Users\SykalaTomáš\source\repos\sykalatomas\projektT3A\main\main\bin\Debug\net8.0-windows\nahradni_otazky.txt
+D:\Users\SykalaTomáš\source\repos\sykalatomas\projektT3A\main\main\obj\Debug\net8.0-windows\main.QuestionForm.resources
+D:\Users\SykalaTomáš\source\repos\sykalatomas\projektT3A\main\main\obj\Debug\net8.0-windows\main.QuestionFormYesNo.resources
