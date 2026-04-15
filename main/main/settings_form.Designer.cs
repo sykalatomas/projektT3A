@@ -35,8 +35,6 @@
             hrac1_textbox = new TextBox();
             hrac2_textbox = new TextBox();
             motiv = new Label();
-            dark_radiobtn = new RadioButton();
-            light_radiobtn = new RadioButton();
             ulozit_btn = new Button();
             hrac1_radio = new RadioButton();
             hrac2_radio = new RadioButton();
@@ -61,7 +59,9 @@
             // hrac1
             // 
             hrac1.AutoSize = true;
+            hrac1.BackColor = Color.Transparent;
             hrac1.Font = new Font("Segoe UI", 15F);
+            hrac1.ForeColor = Color.White;
             hrac1.Location = new Point(51, 47);
             hrac1.Name = "hrac1";
             hrac1.Size = new Size(198, 28);
@@ -71,7 +71,9 @@
             // hrac2
             // 
             hrac2.AutoSize = true;
+            hrac2.BackColor = Color.Transparent;
             hrac2.Font = new Font("Segoe UI", 15F);
+            hrac2.ForeColor = Color.White;
             hrac2.Location = new Point(51, 132);
             hrac2.Name = "hrac2";
             hrac2.Size = new Size(204, 28);
@@ -99,34 +101,15 @@
             // motiv
             // 
             motiv.AutoSize = true;
+            motiv.BackColor = Color.Transparent;
             motiv.Font = new Font("Segoe UI", 15F);
-            motiv.Location = new Point(384, 47);
+            motiv.ForeColor = Color.White;
+            motiv.Location = new Point(416, 47);
             motiv.Name = "motiv";
-            motiv.Size = new Size(242, 28);
+            motiv.Size = new Size(248, 28);
             motiv.TabIndex = 4;
-            motiv.Text = "Nastavení režimu aplikace:";
-            // 
-            // dark_radiobtn
-            // 
-            dark_radiobtn.AutoSize = true;
-            dark_radiobtn.Location = new Point(6, 22);
-            dark_radiobtn.Name = "dark_radiobtn";
-            dark_radiobtn.Size = new Size(92, 19);
-            dark_radiobtn.TabIndex = 7;
-            dark_radiobtn.Text = "Tmavý režim";
-            dark_radiobtn.UseVisualStyleBackColor = true;
-            // 
-            // light_radiobtn
-            // 
-            light_radiobtn.AutoSize = true;
-            light_radiobtn.Checked = true;
-            light_radiobtn.Location = new Point(121, 22);
-            light_radiobtn.Name = "light_radiobtn";
-            light_radiobtn.Size = new Size(88, 19);
-            light_radiobtn.TabIndex = 7;
-            light_radiobtn.TabStop = true;
-            light_radiobtn.Text = "Světlý režim";
-            light_radiobtn.UseVisualStyleBackColor = true;
+            motiv.Text = "Nastavení výchozího hráče:";
+            motiv.TextAlign = ContentAlignment.TopCenter;
             // 
             // ulozit_btn
             // 
@@ -145,42 +128,45 @@
             // hrac1_radio
             // 
             hrac1_radio.AutoSize = true;
-            hrac1_radio.Location = new Point(261, 81);
+            hrac1_radio.Location = new Point(22, 22);
             hrac1_radio.Name = "hrac1_radio";
-            hrac1_radio.Size = new Size(14, 13);
+            hrac1_radio.Size = new Size(59, 19);
             hrac1_radio.TabIndex = 9;
+            hrac1_radio.Text = "Hráč 1";
             hrac1_radio.UseVisualStyleBackColor = true;
             // 
             // hrac2_radio
             // 
             hrac2_radio.AutoSize = true;
-            hrac2_radio.Location = new Point(261, 167);
+            hrac2_radio.Location = new Point(22, 47);
             hrac2_radio.Name = "hrac2_radio";
-            hrac2_radio.Size = new Size(14, 13);
+            hrac2_radio.Size = new Size(59, 19);
             hrac2_radio.TabIndex = 10;
+            hrac2_radio.Text = "Hráč 2";
             hrac2_radio.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(dark_radiobtn);
-            groupBox1.Controls.Add(light_radiobtn);
-            groupBox1.FlatStyle = FlatStyle.Flat;
-            groupBox1.Location = new Point(384, 81);
+            groupBox1.BackColor = Color.Transparent;
+            groupBox1.Controls.Add(hrac1_radio);
+            groupBox1.Controls.Add(hrac2_radio);
+            groupBox1.ForeColor = Color.White;
+            groupBox1.Location = new Point(416, 86);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(260, 54);
+            groupBox1.Size = new Size(200, 89);
             groupBox1.TabIndex = 11;
             groupBox1.TabStop = false;
-            groupBox1.Text = "🌙 / ☀️";
+            groupBox1.Text = "Který hráč bude začínat?";
             // 
             // settings_form
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.minimalist_background;
+            BackgroundImageLayout = ImageLayout.Zoom;
             ClientSize = new Size(800, 450);
-            Controls.Add(motiv);
             Controls.Add(groupBox1);
-            Controls.Add(hrac2_radio);
-            Controls.Add(hrac1_radio);
+            Controls.Add(motiv);
             Controls.Add(ulozit_btn);
             Controls.Add(hrac2_textbox);
             Controls.Add(hrac1_textbox);
@@ -208,8 +194,6 @@
         private TextBox hrac1_textbox;
         private TextBox hrac2_textbox;
         private Label motiv;
-        private RadioButton dark_radiobtn;
-        private RadioButton light_radiobtn;
         private Button ulozit_btn;
         private RadioButton hrac1_radio;
         private RadioButton hrac2_radio;

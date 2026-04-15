@@ -16,11 +16,6 @@ namespace main
             }
         }
 
-        private void uKONÈITToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
         private void about_btn_Click(object sender, EventArgs e)
         {
             about_form about = new about_form();

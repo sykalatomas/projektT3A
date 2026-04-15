@@ -121,12 +121,11 @@
     <value>Zdravím!
 Jmenuju se Tomáš Sykala a jsem studentem
 3. ročníku maturitního oboru IT na škole FrenGP. 
-Je mi 18 let a pocházím z nedalekého města
-Kopřivnice. Rád svůj volný čas investuju do IT,
+Rád svůj volný čas investuju do IT,
 nebo ještě raději do focení, kterému se věnuji od roku 2021.
-Tento projekt vznikl jako zadání samostatné práce
-v rámci předmětu programování. Na aplikaci jsem si dal
-záležet, tak snad Vás alespoň trochu osloví. :)
+Tento projekt vznikl jako zadání závěrečné
+samostatné práce v rámci předmětu programování.
+Nad aplikací jsem strávil odhadem tak 15h, tak snad Vás alespoň trochu osloví. :)
 </value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />

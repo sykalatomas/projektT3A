@@ -1,50 +1,50 @@
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
-JE TOHLE NÁHRADNÍ OTÁZKA?;ano
+Je Praha hlavní město České republiky?;Ano
+Je pavouk hmyz?;Ne
+Je slunce hvězda?;Ano
+Je velryba ryba?;Ne
+Je Mount Everest nejvyšší hora světa?;Ano
+Je pětka liché číslo?;Ano
+Má dospělý člověk 32 zubů?;Ano
+Je Austrálie největší kontinent?;Ne
+Je voda při 0°C v pevném skupenství?;Ano
+Je zeměkoule placatá?;Ne
+Je Vltava nejdelší řeka v ČR?;Ano
+Je lev masožravec?;Ano
+Je rajče z botanického hlediska ovoce?;Ano
+Má hmyz šest nohou?;Ano
+Je zlato magnetický kov?;Ne
+Je Jupiter největší planeta sluneční soustavy?;Ano
+Je Paříž v Itálii?;Ne
+Je rok 2024 přestupný?;Ano
+Je šachovnice tvořena 64 poli?;Ano
+Je netopýr pták?;Ne
+Je Eiffelova věž v Berlíně?;Ne
+Je sůl nad zlato v pohádce?;Ano
+Je hliník lehký kov?;Ano
+Je lidské srdce sval?;Ano
+Je měsíc planeta?;Ne
+Je čeština slovanský jazyk?;Ano
+Je delfín savec?;Ano
+Je vteřina základní jednotka času?;Ano
+Je diamant nejtvrdší přírodní minerál?;Ano
+Je kůň sudokopytník?;Ne
+Je v abecedě písmeno Q před P?;Ne
+Je fotbal kolektivní sport?;Ano
+Je minuta delší než hodina?;Ne
+Je tukan pták?;Ano
+Je Nil nejdelší řeka světa?;Ano
+Je Švýcarsko členem Evropské unie?;Ne
+Má krychle 8 vrcholů?;Ano
+Je Grónsko největší ostrov světa?;Ano
+Žije lední medvěd v Africe ve volné přírodě?;Ne
+Je čtverec speciální typ obdélníku?;Ano
+Je žralok paryba?;Ano
+Je Tokio hlavní město Japonska?;Ano
+Je Mars známý jako rudá planeta?;Ano
+Je penicilin antibiotikum?;Ano
+Je sníh zmrzlá voda?;Ano
+Umí klokan skákat pozpátku?;Ne
+Je v Praze provozováno metro?;Ano
+Je krev v těle modrá?;Ne
+Je olovo těžší než voda?;Ano
+Je AZ-Kvíz legendární česká soutěž?;Ano

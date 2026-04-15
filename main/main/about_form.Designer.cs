@@ -40,11 +40,13 @@
             // about_me
             // 
             about_me.AutoSize = true;
-            about_me.Font = new Font("Courier New", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 238);
+            about_me.BackColor = Color.Transparent;
+            about_me.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 238);
+            about_me.ForeColor = Color.White;
             about_me.Location = new Point(12, 9);
             about_me.Name = "about_me";
             about_me.RightToLeft = RightToLeft.No;
-            about_me.Size = new Size(670, 198);
+            about_me.Size = new Size(721, 200);
             about_me.TabIndex = 0;
             about_me.Text = resources.GetString("about_me.Text");
             // 
@@ -76,7 +78,7 @@
             // 
             start_btn.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
             start_btn.ForeColor = Color.FromArgb(0, 0, 64);
-            start_btn.Location = new Point(12, 220);
+            start_btn.Location = new Point(21, 220);
             start_btn.Name = "start_btn";
             start_btn.Size = new Size(125, 39);
             start_btn.TabIndex = 5;
@@ -88,7 +90,7 @@
             // 
             button2.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
             button2.ForeColor = Color.FromArgb(0, 0, 64);
-            button2.Location = new Point(169, 220);
+            button2.Location = new Point(186, 220);
             button2.Name = "button2";
             button2.Size = new Size(154, 39);
             button2.TabIndex = 5;
@@ -100,7 +102,9 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.Control;
+            BackColor = Color.Black;
+            BackgroundImage = Properties.Resources.minimalist_background;
+            BackgroundImageLayout = ImageLayout.Zoom;
             ClientSize = new Size(800, 450);
             Controls.Add(button2);
             Controls.Add(start_btn);
@@ -112,7 +116,7 @@
             MaximizeBox = false;
             Name = "about_form";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "O autorovi";
+            Text = "O projektu..";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

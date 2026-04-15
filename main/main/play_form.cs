@@ -14,13 +14,15 @@ namespace main
 
     public partial class play_form : Form
     {
-        // Definice stran (indexy tlačítek na okrajích)
+        int aktualniIndexNahradni = 0;
         List<int> levaStrana = new List<int> { 0, 1, 3, 6, 10, 15, 21 };
         List<int> pravaStrana = new List<int> { 0, 2, 5, 9, 14, 20, 27 };
         List<int> spodniStrana = new List<int> { 21, 22, 23, 24, 25, 26, 27 };
-
-        // Mapa sousedů - které políčko se dotýká kterých
-        // POZOR: Tohle sedí jen pokud máš Tagy očíslované 0-27 přesně z vrcholu dolů!
+        List<int> poleHrac1 = new List<int>();
+        List<int> poleHrac2 = new List<int>();
+        List<int> cernaPole = new List<int>();
+        List<Otazka> seznamOtazek = new List<Otazka>();
+        List<nahradniOtazka> seznamNahradnichOtazek = new List<nahradniOtazka>();
         Dictionary<int, List<int>> sousede = new Dictionary<int, List<int>>()
         {
             { 0, new List<int> { 1, 2 } },
@@ -52,54 +54,6 @@ namespace main
             { 26, new List<int> { 19, 20, 25, 27 } },
             { 27, new List<int> { 20, 26 } }
         };
-        List<int> poleHrac1 = new List<int>();
-        List<int> poleHrac2 = new List<int>();
-        List<int> cernaPole = new List<int>();
-        int aktualniIndexNahradni = 0;
-        private bool ZkontrolujVyhru(List<int> poleHrace)
-        {
-            HashSet<int> navstiveno = new HashSet<int>();
-
-            foreach (int startovniPole in poleHrace)
-            {
-                // Pokud jsme toto pole už zkontrolovali v jiném ostrově, přeskočíme ho
-                if (navstiveno.Contains(startovniPole)) continue;
-
-                Queue<int> fronta = new Queue<int>();
-                List<int> ostrov = new List<int>();
-
-                fronta.Enqueue(startovniPole);
-                navstiveno.Add(startovniPole);
-
-                // Hledání všech propojených sousedů (tvoření ostrova)
-                while (fronta.Count > 0)
-                {
-                    int aktualni = fronta.Dequeue();
-                    ostrov.Add(aktualni);
-
-                    foreach (int soused in sousede[aktualni])
-                    {
-                        if (poleHrace.Contains(soused) && !navstiveno.Contains(soused))
-                        {
-                            navstiveno.Add(soused);
-                            fronta.Enqueue(soused);
-                        }
-                    }
-                }
-
-                // Kontrola, jestli ostrov zasahuje na všechny 3 strany
-                bool dotekLeva = ostrov.Any(p => levaStrana.Contains(p));
-                bool dotekPrava = ostrov.Any(p => pravaStrana.Contains(p));
-                bool dotekSpodni = ostrov.Any(p => spodniStrana.Contains(p));
-
-                if (dotekLeva && dotekPrava && dotekSpodni)
-                {
-                    return true; // VÝHRA!
-                }
-            }
-
-            return false;
-        }
         public class Otazka
         {
             public string Text { get; set; }
@@ -124,8 +78,46 @@ namespace main
             }
         }
 
-        List<Otazka> seznamOtazek = new List<Otazka>();
-        List<nahradniOtazka> seznamNahradnichOtazek = new List<nahradniOtazka>();
+
+        private bool ZkontrolujVyhru(List<int> poleHrace)
+        {
+            HashSet<int> navstiveno = new HashSet<int>();
+
+            foreach (int startovniPole in poleHrace)
+            {
+                if (navstiveno.Contains(startovniPole)) continue;
+                Queue<int> fronta = new Queue<int>();
+                List<int> ostrov = new List<int>();
+                fronta.Enqueue(startovniPole);
+                navstiveno.Add(startovniPole);
+
+                while (fronta.Count > 0)
+                {
+                    int aktualni = fronta.Dequeue();
+                    ostrov.Add(aktualni);
+
+                    foreach (int soused in sousede[aktualni])
+                    {
+                        if (poleHrace.Contains(soused) && !navstiveno.Contains(soused))
+                        {
+                            navstiveno.Add(soused);
+                            fronta.Enqueue(soused);
+                        }
+                    }
+                }
+
+                bool dotekLeva = ostrov.Any(p => levaStrana.Contains(p));
+                bool dotekPrava = ostrov.Any(p => pravaStrana.Contains(p));
+                bool dotekSpodni = ostrov.Any(p => spodniStrana.Contains(p));
+
+                if (dotekLeva && dotekPrava && dotekSpodni)
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
 
         private void NaplnOtazek()
         {
@@ -210,10 +202,7 @@ namespace main
         {
             hrac1.Text = HraData.JmenoHrac1;
             hrac2.Text = HraData.JmenoHrac2;
-            play_form.ActiveForm.Text = "Hra - " + HraData.JmenoHrac1 + " vs " + HraData.JmenoHrac2;
-            
 
-            
             foreach (Control c in tableLayoutPanel2.Controls)
             {
                 if (c is Button tlacitko)
@@ -282,27 +271,29 @@ namespace main
                                 pole_vybrano.Enabled = false;
                             }
                             aktualniIndexNahradni++;
-                            // --- KONTROLA VÝHRY ---
                             if (ZkontrolujVyhru(poleHrac1))
                             {
-                                MessageBox.Show($"Vyhrál hráč {HraData.JmenoHrac1}!", "Konec hry", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                                this.Close(); // Nebo přechod do menu
+                                MessageBox.Show($"Vítězem tohoto utkání se stává: {HraData.JmenoHrac1}! Blahopřeji :)\nVracím se zpět do menu..", "Konec hry", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                menu_form menu = new menu_form();
+                                this.Close();
+                                menu.Show();
                                 return;
                             }
                             else if (ZkontrolujVyhru(poleHrac2))
                             {
-                                MessageBox.Show($"Vyhrál hráč {HraData.JmenoHrac2}!", "Konec hry", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                                this.Close(); // Nebo přechod do menu
+                                MessageBox.Show($"Vítězem tohoto utkání se stává: {HraData.JmenoHrac2}! Blahopřeji :)\nVracím se zpět do menu..", "Konec hry", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                menu_form menu = new menu_form();
+                                this.Close();
+                                menu.Show();
                                 return;
                             }
 
-                            // --- KONTROLA REMÍZY ---
-                            // Remíza nastane, pokud všechna tlačítka mají nějakého majitele, ale nikdo nevyhrál.
-                            // Předpokládám 28 polí (0 až 27)
-                            if (poleHrac1.Count + poleHrac2.Count == 28) // Pokud černé pole už nejde vybrat, přičti i: + cernaPole.Count
+                            if (poleHrac1.Count + poleHrac2.Count == 28)
                             {
-                                MessageBox.Show("Hra skončila remízou! Žádné další pole už nelze obsadit.", "Konec hry", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                MessageBox.Show("Hra skončila remízou! Žádné další pole už nelze obsadit :(\nVracím se zpět do menu..", "Konec hry", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                menu_form menu = new menu_form();
                                 this.Close();
+                                menu.Show();
                                 return;
                             }
                             HraData.hracNaRade = (HraData.hracNaRade == 1) ? 2 : 1;
@@ -339,27 +330,30 @@ namespace main
                             cernaPole.Add(indexOtazky);
 
                         }
-                        // --- KONTROLA VÝHRY ---
+
                         if (ZkontrolujVyhru(poleHrac1))
                         {
-                            MessageBox.Show($"Vyhrál hráč {HraData.JmenoHrac1}!", "Konec hry", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                            this.Close(); // Nebo přechod do menu
+                            MessageBox.Show($"Vítězem tohoto utkání se stává: {HraData.JmenoHrac1}! Blahopřeji :)\nVracím se zpět do menu..", "Konec hry", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            menu_form menu = new menu_form();
+                            this.Close();
+                            menu.Show();
                             return;
                         }
                         else if (ZkontrolujVyhru(poleHrac2))
                         {
-                            MessageBox.Show($"Vyhrál hráč {HraData.JmenoHrac2}!", "Konec hry", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                            this.Close(); // Nebo přechod do menu
+                            MessageBox.Show($"Vítězem tohoto utkání se stává: {HraData.JmenoHrac2}! Blahopřeji :)\nVracím se zpět do menu..", "Konec hry", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            menu_form menu = new menu_form();
+                            this.Close();
+                            menu.Show();
                             return;
                         }
 
-                        // --- KONTROLA REMÍZY ---
-                        // Remíza nastane, pokud všechna tlačítka mají nějakého majitele, ale nikdo nevyhrál.
-                        // Předpokládám 28 polí (0 až 27)
-                        if (poleHrac1.Count + poleHrac2.Count == 28) // Pokud černé pole už nejde vybrat, přičti i: + cernaPole.Count
+                        if (poleHrac1.Count + poleHrac2.Count == 28)
                         {
-                            MessageBox.Show("Hra skončila remízou! Žádné další pole už nelze obsadit.", "Konec hry", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            MessageBox.Show("Hra skončila remízou! Žádné další pole už nelze obsadit :(\nVracím se zpět do menu..", "Konec hry", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            menu_form menu = new menu_form();
                             this.Close();
+                            menu.Show();
                             return;
                         }
                         HraData.hracNaRade = (HraData.hracNaRade == 1) ? 2 : 1;

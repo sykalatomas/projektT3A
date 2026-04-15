@@ -61,9 +61,9 @@
             pole_10 = new Button();
             pole_25 = new Button();
             hrac2_tah = new Label();
-            odejit_btn = new Button();
             hrac1 = new Button();
             hrac2 = new Button();
+            odejit_btn = new Button();
             tableLayoutPanel1.SuspendLayout();
             tableLayoutPanel2.SuspendLayout();
             SuspendLayout();
@@ -77,9 +77,9 @@
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 75.84906F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 12.0754709F));
             tableLayoutPanel1.Controls.Add(tableLayoutPanel2, 1, 0);
-            tableLayoutPanel1.Controls.Add(odejit_btn, 0, 2);
             tableLayoutPanel1.Controls.Add(hrac1, 0, 0);
             tableLayoutPanel1.Controls.Add(hrac2, 2, 0);
+            tableLayoutPanel1.Controls.Add(odejit_btn, 0, 2);
             tableLayoutPanel1.Dock = DockStyle.Fill;
             tableLayoutPanel1.Location = new Point(0, 0);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -238,19 +238,18 @@
             // 
             // hrac1_tah
             // 
-            hrac1_tah.AutoSize = true;
             hrac1_tah.BackColor = Color.Transparent;
             tableLayoutPanel2.SetColumnSpan(hrac1_tah, 6);
             hrac1_tah.Dock = DockStyle.Fill;
             hrac1_tah.Font = new Font("Segoe UI Black", 25F, FontStyle.Bold);
-            hrac1_tah.ForeColor = Color.Red;
+            hrac1_tah.ForeColor = Color.Aqua;
             hrac1_tah.Location = new Point(10, 10);
             hrac1_tah.Margin = new Padding(10);
             hrac1_tah.Name = "hrac1_tah";
             hrac1_tah.Size = new Size(232, 34);
             hrac1_tah.TabIndex = 8;
             hrac1_tah.Text = "label1";
-            hrac1_tah.TextAlign = ContentAlignment.MiddleLeft;
+            hrac1_tah.TextAlign = ContentAlignment.MiddleCenter;
             hrac1_tah.Visible = false;
             // 
             // pole_27
@@ -736,34 +735,19 @@
             // 
             // hrac2_tah
             // 
-            hrac2_tah.AutoSize = true;
             hrac2_tah.BackColor = Color.Transparent;
             tableLayoutPanel2.SetColumnSpan(hrac2_tah, 6);
             hrac2_tah.Dock = DockStyle.Fill;
             hrac2_tah.Font = new Font("Segoe UI Black", 25F, FontStyle.Bold);
-            hrac2_tah.ForeColor = Color.Red;
+            hrac2_tah.ForeColor = Color.Gold;
             hrac2_tah.Location = new Point(346, 10);
             hrac2_tah.Margin = new Padding(10);
             hrac2_tah.Name = "hrac2_tah";
             hrac2_tah.Size = new Size(240, 34);
             hrac2_tah.TabIndex = 9;
             hrac2_tah.Text = "label2";
-            hrac2_tah.TextAlign = ContentAlignment.MiddleRight;
+            hrac2_tah.TextAlign = ContentAlignment.MiddleCenter;
             hrac2_tah.Visible = false;
-            // 
-            // odejit_btn
-            // 
-            odejit_btn.BackColor = Color.Firebrick;
-            odejit_btn.FlatStyle = FlatStyle.Flat;
-            odejit_btn.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            odejit_btn.ForeColor = SystemColors.Control;
-            odejit_btn.Location = new Point(3, 392);
-            odejit_btn.Name = "odejit_btn";
-            odejit_btn.Size = new Size(89, 38);
-            odejit_btn.TabIndex = 1;
-            odejit_btn.Text = "ODEJÍT";
-            odejit_btn.UseVisualStyleBackColor = false;
-            odejit_btn.Click += odejit_btn_Click_1;
             // 
             // hrac1
             // 
@@ -807,6 +791,21 @@
             hrac2.Text = "Hráč č.2";
             hrac2.UseVisualStyleBackColor = false;
             // 
+            // odejit_btn
+            // 
+            odejit_btn.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            odejit_btn.BackColor = Color.Firebrick;
+            odejit_btn.FlatStyle = FlatStyle.Flat;
+            odejit_btn.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 238);
+            odejit_btn.ForeColor = SystemColors.Control;
+            odejit_btn.Location = new Point(3, 392);
+            odejit_btn.Name = "odejit_btn";
+            odejit_btn.Size = new Size(89, 38);
+            odejit_btn.TabIndex = 1;
+            odejit_btn.Text = "ODEJÍT";
+            odejit_btn.UseVisualStyleBackColor = false;
+            odejit_btn.Click += odejit_btn_Click_1;
+            // 
             // play_form
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -816,6 +815,7 @@
             BackgroundImageLayout = ImageLayout.Zoom;
             ClientSize = new Size(794, 433);
             Controls.Add(tableLayoutPanel1);
+            FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "play_form";
             Text = "play_form";
@@ -824,7 +824,6 @@
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel1.PerformLayout();
             tableLayoutPanel2.ResumeLayout(false);
-            tableLayoutPanel2.PerformLayout();
             ResumeLayout(false);
         }
 

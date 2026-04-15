@@ -54,6 +54,8 @@ namespace main
                 zmenyNebylyUlozeny = false;
                 HraData.JmenoHrac1 = hrac1_textbox.Text;
                 HraData.JmenoHrac2 = hrac2_textbox.Text;
+                hrac1_radio.Text = HraData.JmenoHrac1;
+                hrac2_radio.Text = HraData.JmenoHrac2;
                 if (hrac1_radio.Checked)
                 {
                     HraData.hracNaRade = 1;
@@ -72,6 +74,8 @@ namespace main
         {
             hrac1_textbox.Text = HraData.JmenoHrac1;
             hrac2_textbox.Text = HraData.JmenoHrac2;
+            hrac1_radio.Text = HraData.JmenoHrac1;
+            hrac2_radio.Text = HraData.JmenoHrac2;
         }
 
         private void hrac1_textbox_TextChanged(object sender, EventArgs e)

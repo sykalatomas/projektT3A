@@ -32,11 +32,7 @@
             start_btn = new Button();
             set_btn = new Button();
             about_btn = new Button();
-            menuStrip1 = new MenuStrip();
-            uKONČITToolStripMenuItem = new ToolStripMenuItem();
-            label1 = new Label();
             odejit_btn = new Button();
-            menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // start_btn
@@ -71,38 +67,9 @@
             about_btn.Name = "about_btn";
             about_btn.Size = new Size(441, 85);
             about_btn.TabIndex = 1;
-            about_btn.Text = "O AUTOROVI";
+            about_btn.Text = "O PROJEKTU";
             about_btn.UseVisualStyleBackColor = true;
             about_btn.Click += about_btn_Click;
-            // 
-            // menuStrip1
-            // 
-            menuStrip1.ImageScalingSize = new Size(24, 24);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { uKONČITToolStripMenuItem });
-            menuStrip1.Location = new Point(0, 0);
-            menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(1132, 24);
-            menuStrip1.TabIndex = 2;
-            menuStrip1.Text = "menuStrip1";
-            // 
-            // uKONČITToolStripMenuItem
-            // 
-            uKONČITToolStripMenuItem.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            uKONČITToolStripMenuItem.ForeColor = Color.Red;
-            uKONČITToolStripMenuItem.Name = "uKONČITToolStripMenuItem";
-            uKONČITToolStripMenuItem.Size = new Size(72, 20);
-            uKONČITToolStripMenuItem.Text = "UKONČIT";
-            uKONČITToolStripMenuItem.Click += uKONČITToolStripMenuItem_Click;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.Transparent;
-            label1.Location = new Point(1125, 620);
-            label1.Name = "label1";
-            label1.Size = new Size(63, 15);
-            label1.TabIndex = 3;
-            label1.Text = "verze: beta";
             // 
             // odejit_btn
             // 
@@ -123,34 +90,25 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Poster__Facebook1200x675;
-            BackgroundImageLayout = ImageLayout.Zoom;
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1132, 643);
-            Controls.Add(label1);
             Controls.Add(about_btn);
             Controls.Add(set_btn);
             Controls.Add(start_btn);
             Controls.Add(odejit_btn);
-            Controls.Add(menuStrip1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
-            MainMenuStrip = menuStrip1;
             MaximizeBox = false;
             Name = "menu_form";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Zábavná hra AZ Kvíz";
-            menuStrip1.ResumeLayout(false);
-            menuStrip1.PerformLayout();
+            Text = "Vítejte ve vědomostní hře - AZ kvíz!";
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
         private Button start_btn;
         private Button set_btn;
         private Button about_btn;
-        private MenuStrip menuStrip1;
-        private ToolStripMenuItem uKONČITToolStripMenuItem;
-        private Label label1;
         private Button odejit_btn;
     }
 }

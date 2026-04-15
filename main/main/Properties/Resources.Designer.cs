@@ -123,6 +123,16 @@ namespace main.Properties {
         /// <summary>
         ///   Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap minimalist_background {
+            get {
+                object obj = ResourceManager.GetObject("minimalist background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Poster__Facebook1200x675 {
             get {
                 object obj = ResourceManager.GetObject("Poster__Facebook1200x675", resourceCulture);
