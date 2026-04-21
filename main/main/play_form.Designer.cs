@@ -137,7 +137,7 @@
             tableLayoutPanel2.Controls.Add(pole_9, 7, 3);
             tableLayoutPanel2.Controls.Add(pole_10, 9, 3);
             tableLayoutPanel2.Controls.Add(pole_25, 6, 6);
-            tableLayoutPanel2.Controls.Add(hrac2_tah, 8, 0);
+            tableLayoutPanel2.Controls.Add(hrac2_tah, 9, 0);
             tableLayoutPanel2.Dock = DockStyle.Fill;
             tableLayoutPanel2.Location = new Point(98, 3);
             tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -239,17 +239,17 @@
             // hrac1_tah
             // 
             hrac1_tah.BackColor = Color.Transparent;
-            tableLayoutPanel2.SetColumnSpan(hrac1_tah, 6);
+            tableLayoutPanel2.SetColumnSpan(hrac1_tah, 5);
             hrac1_tah.Dock = DockStyle.Fill;
             hrac1_tah.Font = new Font("Segoe UI Black", 25F, FontStyle.Bold);
             hrac1_tah.ForeColor = Color.Aqua;
             hrac1_tah.Location = new Point(10, 10);
             hrac1_tah.Margin = new Padding(10);
             hrac1_tah.Name = "hrac1_tah";
-            hrac1_tah.Size = new Size(232, 34);
+            tableLayoutPanel2.SetRowSpan(hrac1_tah, 2);
+            hrac1_tah.Size = new Size(190, 88);
             hrac1_tah.TabIndex = 8;
             hrac1_tah.Text = "label1";
-            hrac1_tah.TextAlign = ContentAlignment.MiddleCenter;
             hrac1_tah.Visible = false;
             // 
             // pole_27
@@ -736,17 +736,18 @@
             // hrac2_tah
             // 
             hrac2_tah.BackColor = Color.Transparent;
-            tableLayoutPanel2.SetColumnSpan(hrac2_tah, 6);
+            tableLayoutPanel2.SetColumnSpan(hrac2_tah, 5);
             hrac2_tah.Dock = DockStyle.Fill;
             hrac2_tah.Font = new Font("Segoe UI Black", 25F, FontStyle.Bold);
             hrac2_tah.ForeColor = Color.Gold;
-            hrac2_tah.Location = new Point(346, 10);
+            hrac2_tah.Location = new Point(388, 10);
             hrac2_tah.Margin = new Padding(10);
             hrac2_tah.Name = "hrac2_tah";
-            hrac2_tah.Size = new Size(240, 34);
+            tableLayoutPanel2.SetRowSpan(hrac2_tah, 2);
+            hrac2_tah.Size = new Size(198, 88);
             hrac2_tah.TabIndex = 9;
             hrac2_tah.Text = "label2";
-            hrac2_tah.TextAlign = ContentAlignment.MiddleCenter;
+            hrac2_tah.TextAlign = ContentAlignment.TopRight;
             hrac2_tah.Visible = false;
             // 
             // hrac1

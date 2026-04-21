@@ -9,7 +9,7 @@ Kdo je autorem cyklu symfonických básní Má vlast?;Bedřich Smetana
 Který český spisovatel poprvé použil slovo "robot"?;Karel Čapek
 Jak se jmenuje naše nejhlubší propast, i s její zatopenou částí?;Hranická propast
 Který chemik vynalezl měkké kontaktní čočky?;Otto Wichterle
-Ve kterém městě sídlí hlavní závor automobilky Škoda Auto?;Mladá Boleslav
+Ve kterém městě sídlí hlavní závod automobilky Škoda Auto?;Mladá Boleslav
 Který legendární hokejista nosí na dresu číslo 68?;Jaromír Jágr
 Jak se jmenuje národní strom České republiky?;Lípa srdčitá
 Které pohoří tvoří přirozenou hranici s Polskem na severu Čech?;Krkonoše
