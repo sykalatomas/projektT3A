@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\main",
+    "\\main\\main"
   ],
-  "SelectedNode": "\\main.sln",
+  "SelectedNode": "\\main\\main\\about_form.cs",
   "PreviewInSolutionExplorer": false
 }

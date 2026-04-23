@@ -64,7 +64,7 @@
             hrac1.ForeColor = Color.White;
             hrac1.Location = new Point(51, 47);
             hrac1.Name = "hrac1";
-            hrac1.Size = new Size(198, 28);
+            hrac1.Size = new Size(302, 41);
             hrac1.TabIndex = 3;
             hrac1.Text = "Jméno prvního hráče:";
             // 
@@ -76,7 +76,7 @@
             hrac2.ForeColor = Color.White;
             hrac2.Location = new Point(51, 132);
             hrac2.Name = "hrac2";
-            hrac2.Size = new Size(204, 28);
+            hrac2.Size = new Size(314, 41);
             hrac2.TabIndex = 4;
             hrac2.Text = "Jméno druhého hráče:";
             // 
@@ -84,7 +84,7 @@
             // 
             hrac1_textbox.Location = new Point(51, 78);
             hrac1_textbox.Name = "hrac1_textbox";
-            hrac1_textbox.Size = new Size(198, 23);
+            hrac1_textbox.Size = new Size(198, 31);
             hrac1_textbox.TabIndex = 5;
             hrac1_textbox.Text = "Hráč 1";
             hrac1_textbox.TextChanged += hrac1_textbox_TextChanged;
@@ -93,7 +93,7 @@
             // 
             hrac2_textbox.Location = new Point(51, 163);
             hrac2_textbox.Name = "hrac2_textbox";
-            hrac2_textbox.Size = new Size(198, 23);
+            hrac2_textbox.Size = new Size(198, 31);
             hrac2_textbox.TabIndex = 6;
             hrac2_textbox.Text = "Hráč 2";
             hrac2_textbox.TextChanged += hrac1_textbox_TextChanged;
@@ -106,7 +106,7 @@
             motiv.ForeColor = Color.White;
             motiv.Location = new Point(416, 47);
             motiv.Name = "motiv";
-            motiv.Size = new Size(248, 28);
+            motiv.Size = new Size(376, 41);
             motiv.TabIndex = 4;
             motiv.Text = "Nastavení výchozího hráče:";
             motiv.TextAlign = ContentAlignment.TopCenter;
@@ -130,7 +130,7 @@
             hrac1_radio.AutoSize = true;
             hrac1_radio.Location = new Point(22, 22);
             hrac1_radio.Name = "hrac1_radio";
-            hrac1_radio.Size = new Size(59, 19);
+            hrac1_radio.Size = new Size(88, 29);
             hrac1_radio.TabIndex = 9;
             hrac1_radio.Text = "Hráč 1";
             hrac1_radio.UseVisualStyleBackColor = true;
@@ -140,7 +140,7 @@
             hrac2_radio.AutoSize = true;
             hrac2_radio.Location = new Point(22, 47);
             hrac2_radio.Name = "hrac2_radio";
-            hrac2_radio.Size = new Size(59, 19);
+            hrac2_radio.Size = new Size(88, 29);
             hrac2_radio.TabIndex = 10;
             hrac2_radio.Text = "Hráč 2";
             hrac2_radio.UseVisualStyleBackColor = true;
@@ -160,8 +160,7 @@
             // 
             // settings_form
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleMode = AutoScaleMode.None;
             BackgroundImage = Properties.Resources.minimalist_background;
             BackgroundImageLayout = ImageLayout.Zoom;
             ClientSize = new Size(800, 450);

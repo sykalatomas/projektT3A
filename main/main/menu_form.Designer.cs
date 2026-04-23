@@ -87,8 +87,7 @@
             // 
             // menu_form
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleMode = AutoScaleMode.None;
             BackgroundImage = Properties.Resources.Poster__Facebook1200x675;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1132, 643);

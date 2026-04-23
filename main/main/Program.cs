@@ -1,3 +1,6 @@
+using System;
+using System.Windows.Forms;
+
 namespace main
 {
     internal static class Program
